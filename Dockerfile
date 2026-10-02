@@ -2,7 +2,7 @@
 # Build and run locally to test:
 #   docker build -t devascend-api .
 #   docker run -p 7860:7860 devascend-api          -> http://localhost:7860/docs
-# Hugging Face Spaces uses deploy/huggingface/Dockerfile (same steps, but it downloads the code from GitHub).
+# Render (free web service) builds this Dockerfile straight from GitHub; it sets $PORT itself.
 
 FROM python:3.13-slim
 

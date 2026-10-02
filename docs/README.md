@@ -13,7 +13,7 @@ Read these in order. Each file explains one part of the project in simple words,
 | 7 | [07-viva-questions.md](07-viva-questions.md) | Likely viva questions with short answers |
 | 8 | [08-accuracy-and-errors.md](08-accuracy-and-errors.md) | Accuracy, MAE, RMSE, R², % error: how far predictions are from real data |
 | 9 | [09-learning-guide.md](09-learning-guide.md) | Hybrid recommender: knowledge base + ML + market trends, learning resources |
-| 10 | [10-deployment.md](10-deployment.md) | Free deployment: Vercel (website), Hugging Face Spaces (API), Astra DB (Cassandra) |
+| 10 | [10-deployment.md](10-deployment.md) | Free deployment: Vercel (website), Render (API), Astra DB (Cassandra) |
 
 **Key numbers to remember**
 - 360,519 raw survey responses (5 years: 2021–2025) stored in Cassandra

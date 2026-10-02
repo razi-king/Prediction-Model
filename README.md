@@ -119,4 +119,4 @@ Charts are in `ml/models/reports/` and `ml/notebooks/figures/`. The full explana
 
 ## Deploy it online (free)
 
-Website on **Vercel**, API on **Hugging Face Spaces**, Cassandra on **DataStax Astra DB**. Step-by-step guide: [`docs/10-deployment.md`](docs/10-deployment.md).
+Website on **Vercel**, API on **Render**, Cassandra on **DataStax Astra DB**. Step-by-step guide: [`docs/10-deployment.md`](docs/10-deployment.md).
