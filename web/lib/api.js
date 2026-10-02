@@ -18,6 +18,23 @@ async function request(path, body) {
   return res.json();
 }
 
+/**
+ * A free hosted API (Hugging Face Space) goes to sleep when nobody uses it and needs some
+ * time to wake up. Keep asking /health until it answers; onWaiting() lets the page show
+ * "Waking up the server…" meanwhile. Locally it answers on the first try.
+ */
+export async function waitForApi(onWaiting, { tries = 30, delayMs = 5000 } = {}) {
+  for (let i = 0; i < tries; i++) {
+    try {
+      return await request("/health");
+    } catch {
+      onWaiting?.(i + 1);
+      await new Promise((r) => setTimeout(r, delayMs));
+    }
+  }
+  throw new Error(`Cannot reach the API at ${API_URL}. Is the backend running?`);
+}
+
 export const api = {
   health: () => request("/health"),
   options: () => request("/options"),

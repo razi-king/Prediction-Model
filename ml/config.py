@@ -16,7 +16,13 @@ REPORTS_DIR = MODELS_DIR / "reports"       # charts for the project report
 # ---------- Cassandra ----------
 CASSANDRA_HOSTS = os.getenv("CASSANDRA_HOSTS", "127.0.0.1").split(",")
 CASSANDRA_PORT = int(os.getenv("CASSANDRA_PORT", "9042"))
-KEYSPACE = "devascend"
+KEYSPACE = os.getenv("CASSANDRA_KEYSPACE", "devascend")
+
+# Cloud Cassandra (DataStax Astra DB) for deployment. Leave these EMPTY to use the
+# local Docker Cassandra. When ASTRA_DB_TOKEN is set, the code connects to Astra instead.
+ASTRA_DB_TOKEN = os.getenv("ASTRA_DB_TOKEN", "")                         # "AstraCS:..."
+ASTRA_DB_SECURE_BUNDLE = os.getenv("ASTRA_DB_SECURE_BUNDLE", "")         # path to secure-connect-*.zip
+ASTRA_DB_SECURE_BUNDLE_B64 = os.getenv("ASTRA_DB_SECURE_BUNDLE_B64", "") # same zip as base64 text (for hosting secrets)
 
 # ---------- Data ----------
 SURVEY_YEARS = [2021, 2022, 2023, 2024, 2025]

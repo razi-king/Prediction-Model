@@ -16,6 +16,7 @@ Endpoints
   GET  /history     latest predictions stored in Cassandra
 """
 import json
+import os
 import sys
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -44,12 +45,27 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="DevAscend API", version="1.0", lifespan=lifespan)
+
+# CORS = which websites may call this API from the browser.
+#   * always: any localhost port (development: 3000, 3001 ...)
+#   * deployed: the exact site addresses in ALLOWED_ORIGINS, comma-separated,
+#     e.g.  ALLOWED_ORIGINS=https://devascend.vercel.app
+#   * optional: ALLOWED_ORIGIN_REGEX for Vercel preview links, e.g. https://devascend-.*\.vercel\.app
+LOCAL_ORIGINS = r"http://(localhost|127\.0\.0\.1)(:\d+)?"
+extra_regex = os.getenv("ALLOWED_ORIGIN_REGEX", "").strip()
 app.add_middleware(
-    CORSMiddleware,   # lets the Next.js site (another port) call this API from the browser
-    allow_origin_regex=r"http://(localhost|127\.0\.0\.1)(:\d+)?",   # any local port (3000, 3001...)
+    CORSMiddleware,
+    allow_origins=[o.strip().rstrip("/") for o in os.getenv("ALLOWED_ORIGINS", "").split(",") if o.strip()],
+    allow_origin_regex=f"{LOCAL_ORIGINS}|{extra_regex}" if extra_regex else LOCAL_ORIGINS,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.get("/")
+def root():
+    """Landing page of the API (what you see when you open the deployed API address)."""
+    return {"name": "DevAscend API", "docs": "/docs", "health": "/health"}
 
 
 def model() -> DevAscendPredictor:

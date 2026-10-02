@@ -1,7 +1,7 @@
 "use client";
 
 import { Fragment, useEffect, useState } from "react";
-import { api, formatMoney } from "@/lib/api";
+import { api, formatMoney, waitForApi } from "@/lib/api";
 
 const LEVELS = ["Junior", "Mid", "Senior", "Lead"];
 const pct = (v, d = 1) => `${(v * 100).toFixed(d)}%`;
@@ -66,7 +66,10 @@ export default function AccuracyPage() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    api.evaluation().then(setEv).catch((e) => setError(e.message));
+    waitForApi()   // the free cloud API may need a minute to wake up
+      .then(() => api.evaluation())
+      .then(setEv)
+      .catch((e) => setError(e.message));
   }, []);
 
   if (error) return <div className="page"><div className="alert error">{error}</div></div>;

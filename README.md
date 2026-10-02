@@ -116,3 +116,7 @@ Open http://localhost:3000 (Next.js picks 3001 if 3000 is busy). Fill in the pro
 | Baseline MAE / RMSE (always predict median) | $49,222 / $74,183 |
 
 Charts are in `ml/models/reports/` and `ml/notebooks/figures/`. The full explanation is in [`docs/`](docs/README.md).
+
+## Deploy it online (free)
+
+Website on **Vercel**, API on **Hugging Face Spaces**, Cassandra on **DataStax Astra DB**. Step-by-step guide: [`docs/10-deployment.md`](docs/10-deployment.md).

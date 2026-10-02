@@ -14,3 +14,9 @@ web/.next/
 
 # Logs
 *.log
+
+# Deployment secrets: NEVER commit these
+*.zip
+deploy/astra_bundle_b64.txt
+.env
+api/.env

@@ -1,0 +1,12 @@
+# Keep the Docker image small: the API only needs api/ and parts of ml/
+.git
+.venv
+web
+docs
+deploy
+ml/data
+ml/notebooks
+ml/models/reports
+**/__pycache__
+*.log
+*.zip

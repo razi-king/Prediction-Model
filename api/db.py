@@ -19,12 +19,11 @@ class PredictionStore:
 
     def connect(self):
         try:
-            from cassandra.cluster import Cluster
+            # from ml/: the same connection + schema code as the pipeline
+            # (local Docker Cassandra, or Astra DB in the cloud when ASTRA_DB_TOKEN is set)
+            from cassandra_db import USING_ASTRA, create_schema, make_cluster
 
-            from cassandra_db import create_schema           # from ml/ (shared schema)
-            from config import CASSANDRA_HOSTS, CASSANDRA_PORT
-
-            self.cluster = Cluster(CASSANDRA_HOSTS, port=CASSANDRA_PORT, connect_timeout=5)
+            self.cluster = make_cluster(connect_timeout=10 if USING_ASTRA else 5)
             self.session = self.cluster.connect()
             create_schema(self.session)                       # makes sure tables exist
             self._insert = self.session.prepare(
@@ -32,7 +31,7 @@ class PredictionStore:
                 "score, salary_usd, goal, months_to_goal, profile_json) "
                 "VALUES ('all', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
             )
-            log.info("Connected to Cassandra")
+            log.info("Connected to Cassandra (%s)", "Astra DB cloud" if USING_ASTRA else "local")
         except Exception as exc:
             self.session = None
             log.warning("Cassandra unavailable, history disabled: %s", exc)

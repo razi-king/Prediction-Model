@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { api } from "@/lib/api";
+import { waitForApi } from "@/lib/api";
 
 /** Top bar shared by every page: logo, navigation, API / Cassandra status dots. */
 export default function Header() {
@@ -11,7 +11,8 @@ export default function Header() {
   const [health, setHealth] = useState(null);
 
   useEffect(() => {
-    api.health().then(setHealth).catch(() => setHealth(false));
+    // keep checking while a sleeping cloud API wakes up, so the dots turn green by themselves
+    waitForApi(() => setHealth(false)).then(setHealth).catch(() => setHealth(false));
   }, []);
 
   return (

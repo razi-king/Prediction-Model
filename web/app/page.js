@@ -12,7 +12,7 @@ import SkillGapBars from "@/components/SkillGapBars";
 import WhatIfList from "@/components/WhatIfList";
 import LearningGuide from "@/components/LearningGuide";
 import Hero from "@/components/Hero";
-import { api, API_URL } from "@/lib/api";
+import { api, API_URL, waitForApi } from "@/lib/api";
 
 // Example profile so the form is never empty
 const DEFAULT_FORM = {
@@ -40,9 +40,15 @@ export default function Home() {
 
   // On page load: get dropdown options, API status, model metrics and history.
   useEffect(() => {
-    api.options().then(setOptions).catch(() => setError(`Cannot reach the API at ${API_URL}. Is the backend running?`));
-    api.modelInfo().then(setModelInfo).catch(() => {});
-    api.history().then(setHistory).catch(() => {});
+    // wait until the API is awake (a free cloud server may be sleeping), then load everything
+    waitForApi(() => setError("Waking up the server… this can take up to a minute on the free plan."))
+      .then(() => {
+        setError("");
+        api.options().then(setOptions).catch(() => setError(`Cannot reach the API at ${API_URL}. Is the backend running?`));
+        api.modelInfo().then(setModelInfo).catch(() => {});
+        api.history().then(setHistory).catch(() => {});
+      })
+      .catch((err) => setError(err.message));
   }, []);
 
   async function runPrediction() {
