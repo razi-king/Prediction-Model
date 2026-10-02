@@ -1,0 +1,414 @@
+{
+ "test_rows": 30729,
+ "level_model": "XGBoost",
+ "value_model": "XGBoost",
+ "level": {
+  "accuracy": 0.6524,
+  "f1_macro": 0.6457,
+  "within_one_level": 0.9789,
+  "off_by_two_or_more": 0.0211,
+  "mean_level_error": 0.369,
+  "baseline_accuracy": 0.3001,
+  "per_level": [
+   {
+    "level": "Junior",
+    "precision": 0.812,
+    "recall": 0.826,
+    "f1": 0.819,
+    "support": 9222
+   },
+   {
+    "level": "Mid",
+    "precision": 0.589,
+    "recall": 0.576,
+    "f1": 0.582,
+    "support": 9219
+   },
+   {
+    "level": "Senior",
+    "precision": 0.543,
+    "recall": 0.537,
+    "f1": 0.54,
+    "support": 7682
+   },
+   {
+    "level": "Lead",
+    "precision": 0.634,
+    "recall": 0.65,
+    "f1": 0.642,
+    "support": 4606
+   }
+  ],
+  "confusion_matrix": [
+   [
+    7616,
+    1523,
+    83,
+    0
+   ],
+   [
+    1661,
+    5307,
+    1937,
+    314
+   ],
+   [
+    102,
+    2033,
+    4129,
+    1418
+   ],
+   [
+    0,
+    149,
+    1462,
+    2995
+   ]
+  ],
+  "confusion_matrix_pct": [
+   [
+    0.826,
+    0.165,
+    0.009,
+    0.0
+   ],
+   [
+    0.18,
+    0.576,
+    0.21,
+    0.034
+   ],
+   [
+    0.013,
+    0.265,
+    0.537,
+    0.185
+   ],
+   [
+    0.0,
+    0.032,
+    0.317,
+    0.65
+   ]
+  ]
+ },
+ "value": {
+  "r2": 0.4816,
+  "r2_log": 0.649,
+  "mae": 27810.0,
+  "rmse": 52049.0,
+  "median_abs_error": 15451.0,
+  "mape_pct": 46.0,
+  "median_pct_error": 25.5,
+  "within_10_pct": 0.2122,
+  "within_20_pct": 0.4064,
+  "within_30_pct": 0.5622,
+  "bias_mean_error": -8192.0,
+  "baseline_mae": 49222.0,
+  "baseline_rmse": 74183.0,
+  "interval_80": {
+   "low_factor": 0.575,
+   "high_factor": 1.783,
+   "coverage": 0.8
+  },
+  "by_salary_band": [
+   {
+    "band": "< $25k",
+    "developers": 4774.0,
+    "mae": 12527.0,
+    "median_pct_error": 58.0,
+    "avg_actual": 13469.0,
+    "avg_predicted": 24229.0
+   },
+   {
+    "band": "$25k\u201350k",
+    "developers": 5730.0,
+    "mae": 13842.0,
+    "median_pct_error": 27.0,
+    "avg_actual": 38183.0,
+    "avg_predicted": 44675.0
+   },
+   {
+    "band": "$50k\u2013100k",
+    "developers": 10786.0,
+    "mae": 19513.0,
+    "median_pct_error": 21.0,
+    "avg_actual": 73103.0,
+    "avg_predicted": 74085.0
+   },
+   {
+    "band": "$100k\u2013150k",
+    "developers": 5253.0,
+    "mae": 30429.0,
+    "median_pct_error": 21.0,
+    "avg_actual": 123619.0,
+    "avg_predicted": 115033.0
+   },
+   {
+    "band": "> $150k",
+    "developers": 4186.0,
+    "mae": 82455.0,
+    "median_pct_error": 27.0,
+    "avg_actual": 224129.0,
+    "avg_predicted": 151082.0
+   }
+  ],
+  "by_country": [
+   {
+    "country": "United States of America",
+    "developers": 7006.0,
+    "mae": 42384.0,
+    "median_pct_error": 21.0
+   },
+   {
+    "country": "Germany",
+    "developers": 2338.0,
+    "mae": 22136.0,
+    "median_pct_error": 19.0
+   },
+   {
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "developers": 2070.0,
+    "mae": 33716.0,
+    "median_pct_error": 25.0
+   },
+   {
+    "country": "India",
+    "developers": 1677.0,
+    "mae": 17059.0,
+    "median_pct_error": 40.0
+   },
+   {
+    "country": "Canada",
+    "developers": 1293.0,
+    "mae": 27355.0,
+    "median_pct_error": 22.0
+   },
+   {
+    "country": "France",
+    "developers": 1079.0,
+    "mae": 22567.0,
+    "median_pct_error": 21.0
+   },
+   {
+    "country": "Brazil",
+    "developers": 937.0,
+    "mae": 18566.0,
+    "median_pct_error": 36.0
+   },
+   {
+    "country": "Poland",
+    "developers": 816.0,
+    "mae": 19788.0,
+    "median_pct_error": 27.0
+   }
+  ],
+  "by_level": [
+   {
+    "level": "Junior",
+    "mae": 14028.0,
+    "median_pct_error": 28.0
+   },
+   {
+    "level": "Mid",
+    "mae": 25634.0,
+    "median_pct_error": 27.0
+   },
+   {
+    "level": "Senior",
+    "mae": 32686.0,
+    "median_pct_error": 22.0
+   },
+   {
+    "level": "Lead",
+    "mae": 51629.0,
+    "median_pct_error": 25.0
+   }
+  ]
+ },
+ "examples": [
+  {
+   "role": "Data/ML",
+   "country": "Denmark",
+   "years_pro": 3.0,
+   "num_skills": 13,
+   "actual_level": "Junior",
+   "predicted_level": "Junior",
+   "actual_salary": 79714.0,
+   "predicted_salary": 81500.0,
+   "error_pct": 2.2
+  },
+  {
+   "role": "Mobile",
+   "country": "Ukraine",
+   "years_pro": 9.0,
+   "num_skills": 7,
+   "actual_level": "Senior",
+   "predicted_level": "Senior",
+   "actual_salary": 69905.0,
+   "predicted_salary": 31500.0,
+   "error_pct": -54.9
+  },
+  {
+   "role": "Manager",
+   "country": "United States of America",
+   "years_pro": 13.0,
+   "num_skills": 19,
+   "actual_level": "Senior",
+   "predicted_level": "Lead",
+   "actual_salary": 180000.0,
+   "predicted_salary": 264700.0,
+   "error_pct": 47.0
+  },
+  {
+   "role": "QA/Test",
+   "country": "Austria",
+   "years_pro": 24.0,
+   "num_skills": 6,
+   "actual_level": "Lead",
+   "predicted_level": "Lead",
+   "actual_salary": 74651.0,
+   "predicted_salary": 78400.0,
+   "error_pct": 5.0
+  },
+  {
+   "role": "Full-stack",
+   "country": "Canada",
+   "years_pro": 3.0,
+   "num_skills": 7,
+   "actual_level": "Mid",
+   "predicted_level": "Junior",
+   "actual_salary": 121010.0,
+   "predicted_salary": 59200.0,
+   "error_pct": -51.1
+  },
+  {
+   "role": "Data Engineer",
+   "country": "Brazil",
+   "years_pro": 3.0,
+   "num_skills": 31,
+   "actual_level": "Junior",
+   "predicted_level": "Junior",
+   "actual_salary": 14844.0,
+   "predicted_salary": 17900.0,
+   "error_pct": 20.7
+  },
+  {
+   "role": "Full-stack",
+   "country": "Russian Federation",
+   "years_pro": 16.0,
+   "num_skills": 8,
+   "actual_level": "Senior",
+   "predicted_level": "Lead",
+   "actual_salary": 62340.0,
+   "predicted_salary": 57100.0,
+   "error_pct": -8.4
+  },
+  {
+   "role": "Front-end",
+   "country": "United States of America",
+   "years_pro": 23.0,
+   "num_skills": 9,
+   "actual_level": "Senior",
+   "predicted_level": "Lead",
+   "actual_salary": 163466.0,
+   "predicted_salary": 176100.0,
+   "error_pct": 7.8
+  },
+  {
+   "role": "Full-stack",
+   "country": "Germany",
+   "years_pro": 9.0,
+   "num_skills": 17,
+   "actual_level": "Mid",
+   "predicted_level": "Mid",
+   "actual_salary": 49452.0,
+   "predicted_salary": 59600.0,
+   "error_pct": 20.5
+  },
+  {
+   "role": "Full-stack",
+   "country": "Colombia",
+   "years_pro": 25.0,
+   "num_skills": 16,
+   "actual_level": "Lead",
+   "predicted_level": "Lead",
+   "actual_salary": 184198.0,
+   "predicted_salary": 42400.0,
+   "error_pct": -77.0
+  },
+  {
+   "role": "Embedded",
+   "country": "Czech Republic",
+   "years_pro": 6.0,
+   "num_skills": 16,
+   "actual_level": "Mid",
+   "predicted_level": "Junior",
+   "actual_salary": 33780.0,
+   "predicted_salary": 24700.0,
+   "error_pct": -26.9
+  },
+  {
+   "role": "Data/ML",
+   "country": "United States of America",
+   "years_pro": 10.0,
+   "num_skills": 7,
+   "actual_level": "Mid",
+   "predicted_level": "Senior",
+   "actual_salary": 160000.0,
+   "predicted_salary": 216800.0,
+   "error_pct": 35.5
+  }
+ ],
+ "algorithm_comparison": {
+  "level": [
+   {
+    "model": "Logistic Regression",
+    "accuracy": 0.6222,
+    "f1_macro": 0.6028,
+    "within_one_level": 0.9792,
+    "train_seconds": 5.7
+   },
+   {
+    "model": "Random Forest",
+    "accuracy": 0.633,
+    "f1_macro": 0.6229,
+    "within_one_level": 0.9789,
+    "train_seconds": 19.4
+   },
+   {
+    "model": "XGBoost",
+    "accuracy": 0.6524,
+    "f1_macro": 0.6457,
+    "within_one_level": 0.9789,
+    "train_seconds": 107.1
+   }
+  ],
+  "value": [
+   {
+    "model": "Linear Regression",
+    "r2_log": 0.5838,
+    "r2": 0.3928,
+    "mae_usd": 31089.0,
+    "rmse_usd": 56327.0,
+    "train_seconds": 3.6
+   },
+   {
+    "model": "Random Forest",
+    "r2_log": 0.6328,
+    "r2": 0.4633,
+    "mae_usd": 28401.0,
+    "rmse_usd": 52959.0,
+    "train_seconds": 157.5
+   },
+   {
+    "model": "XGBoost",
+    "r2_log": 0.649,
+    "r2": 0.4816,
+    "mae_usd": 27810.0,
+    "rmse_usd": 52049.0,
+    "train_seconds": 35.7
+   }
+  ]
+ }
+}

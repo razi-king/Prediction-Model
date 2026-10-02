@@ -1,0 +1,30 @@
+Loaded 153,645 clean rows from clean.parquet
+Feature matrix: 153,645 rows x 151 columns
+
+=== Model A: Level Classifier ===
+  Logistic Regression  accuracy=0.622  F1=0.603  within-one-level=0.979  (5.7s)
+  Random Forest        accuracy=0.633  F1=0.623  within-one-level=0.979  (19.4s)
+  XGBoost              accuracy=0.652  F1=0.646  within-one-level=0.979  (107.1s)
+  -> best: XGBoost
+
+=== Model B: Market Value Regressor ===
+  Linear Regression    R2(log)=0.584  R2=0.393  MAE=$31,089  RMSE=$56,327  (3.6s)
+  Random Forest        R2(log)=0.633  R2=0.463  MAE=$28,401  RMSE=$52,959  (157.5s)
+  XGBoost              R2(log)=0.649  R2=0.482  MAE=$27,810  RMSE=$52,049  (35.7s)
+  -> best: XGBoost
+
+Classification report (best level model):
+              precision    recall  f1-score   support
+
+      Junior      0.812     0.826     0.819      9222
+         Mid      0.589     0.576     0.582      9219
+      Senior      0.543     0.537     0.540      7682
+        Lead      0.634     0.650     0.642      4606
+
+    accuracy                          0.652     30729
+   macro avg      0.644     0.647     0.646     30729
+weighted avg      0.651     0.652     0.652     30729
+
+
+Saved models + meta.json to E:\Prediction Model\ml\models
+Saved charts to E:\Prediction Model\ml\models\reports

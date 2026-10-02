@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw survey data is ~650 MB -> download it again (see README)
+ml/data/raw/
+ml/data/clean.parquet
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+
+# Logs
+*.log

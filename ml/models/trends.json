@@ -1,0 +1,1533 @@
+{
+ "skills": {
+  "JavaScript": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.694,
+   "last_share": 0.683,
+   "change_pts": -1.0,
+   "by_year": {
+    "2021": 0.694,
+    "2022": 0.678,
+    "2023": 0.657,
+    "2024": 0.646,
+    "2025": 0.683
+   }
+  },
+  "Docker": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.54,
+   "last_share": 0.625,
+   "change_pts": 8.5,
+   "by_year": {
+    "2021": 0.54,
+    "2022": 0.593,
+    "2023": 0.564,
+    "2024": 0.586,
+    "2025": 0.625
+   }
+  },
+  "HTML/CSS": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.562,
+   "last_share": 0.624,
+   "change_pts": 6.2,
+   "by_year": {
+    "2021": 0.562,
+    "2022": 0.542,
+    "2023": 0.522,
+    "2024": 0.529,
+    "2025": 0.624
+   }
+  },
+  "SQL": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.515,
+   "last_share": 0.622,
+   "change_pts": 10.6,
+   "by_year": {
+    "2021": 0.515,
+    "2022": 0.533,
+    "2023": 0.523,
+    "2024": 0.562,
+    "2025": 0.622
+   }
+  },
+  "PostgreSQL": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.412,
+   "last_share": 0.504,
+   "change_pts": 9.2,
+   "by_year": {
+    "2021": 0.412,
+    "2022": 0.429,
+    "2023": 0.451,
+    "2024": 0.487,
+    "2025": 0.504
+   }
+  },
+  "Amazon Web Services (AWS)": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.44,
+   "last_share": 0.395,
+   "change_pts": -4.5,
+   "by_year": {
+    "2021": 0.44,
+    "2022": 0.448,
+    "2023": 0.473,
+    "2024": 0.45,
+    "2025": 0.395
+   }
+  },
+  "Python": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.406,
+   "last_share": 0.541,
+   "change_pts": 13.5,
+   "by_year": {
+    "2021": 0.406,
+    "2022": 0.41,
+    "2023": 0.434,
+    "2024": 0.471,
+    "2025": 0.541
+   }
+  },
+  "TypeScript": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.381,
+   "last_share": 0.497,
+   "change_pts": 11.6,
+   "by_year": {
+    "2021": 0.381,
+    "2022": 0.418,
+    "2023": 0.453,
+    "2024": 0.451,
+    "2025": 0.497
+   }
+  },
+  "MySQL": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.414,
+   "last_share": 0.32,
+   "change_pts": -9.4,
+   "by_year": {
+    "2021": 0.414,
+    "2022": 0.379,
+    "2023": 0.337,
+    "2024": 0.334,
+    "2025": 0.32
+   }
+  },
+  "Node.js": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.366,
+   "last_share": 0.385,
+   "change_pts": 1.9,
+   "by_year": {
+    "2021": 0.366,
+    "2022": 0.363,
+    "2023": 0.353,
+    "2024": 0.336,
+    "2025": 0.385
+   }
+  },
+  "React": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.35,
+   "last_share": 0.366,
+   "change_pts": 1.6,
+   "by_year": {
+    "2021": 0.35,
+    "2022": 0.358,
+    "2023": 0.366,
+    "2024": 0.351,
+    "2025": 0.366
+   }
+  },
+  "Bash/Shell": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.29,
+   "last_share": 0.497,
+   "change_pts": 20.7,
+   "by_year": {
+    "2021": 0.29,
+    "2022": 0.308,
+    "2023": 0.343,
+    "2024": 0.368,
+    "2025": 0.497
+   }
+  },
+  "Java": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.329,
+   "last_share": 0.282,
+   "change_pts": -4.7,
+   "by_year": {
+    "2021": 0.329,
+    "2022": 0.306,
+    "2023": 0.281,
+    "2024": 0.291,
+    "2025": 0.282
+   }
+  },
+  "C#": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.304,
+   "last_share": 0.304,
+   "change_pts": -0.0,
+   "by_year": {
+    "2021": 0.304,
+    "2022": 0.301,
+    "2023": 0.295,
+    "2024": 0.295,
+    "2025": 0.304
+   }
+  },
+  "SQLite": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.266,
+   "last_share": 0.304,
+   "change_pts": 3.8,
+   "by_year": {
+    "2021": 0.266,
+    "2022": 0.255,
+    "2023": 0.254,
+    "2024": 0.281,
+    "2025": 0.304
+   }
+  },
+  "Microsoft SQL Server": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.275,
+   "last_share": 0.276,
+   "change_pts": 0.0,
+   "by_year": {
+    "2021": 0.275,
+    "2022": 0.268,
+    "2023": 0.256,
+    "2024": 0.256,
+    "2025": 0.276
+   }
+  },
+  "Microsoft Azure": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.244,
+   "last_share": 0.241,
+   "change_pts": -0.3,
+   "by_year": {
+    "2021": 0.244,
+    "2022": 0.249,
+    "2023": 0.249,
+    "2024": 0.262,
+    "2025": 0.241
+   }
+  },
+  "Redis": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.234,
+   "last_share": 0.276,
+   "change_pts": 4.2,
+   "by_year": {
+    "2021": 0.234,
+    "2022": 0.241,
+    "2023": 0.223,
+    "2024": 0.22,
+    "2025": 0.276
+   }
+  },
+  "Kubernetes": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.194,
+   "last_share": 0.267,
+   "change_pts": 7.3,
+   "by_year": {
+    "2021": 0.194,
+    "2022": 0.229,
+    "2023": 0.228,
+    "2024": 0.226,
+    "2025": 0.267
+   }
+  },
+  "MongoDB": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.245,
+   "last_share": 0.193,
+   "change_pts": -5.2,
+   "by_year": {
+    "2021": 0.245,
+    "2022": 0.23,
+    "2023": 0.211,
+    "2024": 0.213,
+    "2025": 0.193
+   }
+  },
+  "jQuery": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.28,
+   "last_share": 0.184,
+   "change_pts": -9.6,
+   "by_year": {
+    "2021": 0.28,
+    "2022": 0.228,
+    "2023": 0.187,
+    "2024": 0.181,
+    "2025": 0.184
+   }
+  },
+  "Google Cloud": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.211,
+   "last_share": 0.201,
+   "change_pts": -1.0,
+   "by_year": {
+    "2021": 0.211,
+    "2022": 0.195,
+    "2023": 0.201,
+    "2024": 0.205,
+    "2025": 0.201
+   }
+  },
+  ".NET": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.218,
+   "last_share": 0.223,
+   "change_pts": 0.5,
+   "by_year": {
+    "2021": 0.218,
+    "2022": 0.25,
+    "2023": 0.221,
+    "2024": 0.223,
+    "2025": 0.0
+   }
+  },
+  "PHP": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.215,
+   "last_share": 0.18,
+   "change_pts": -3.6,
+   "by_year": {
+    "2021": 0.215,
+    "2022": 0.197,
+    "2023": 0.176,
+    "2024": 0.177,
+    "2025": 0.18
+   }
+  },
+  "Angular": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.218,
+   "last_share": 0.157,
+   "change_pts": -6.1,
+   "by_year": {
+    "2021": 0.218,
+    "2022": 0.189,
+    "2023": 0.17,
+    "2024": 0.167,
+    "2025": 0.157
+   }
+  },
+  "ASP.NET Core": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.178,
+   "last_share": 0.179,
+   "change_pts": 0.1,
+   "by_year": {
+    "2021": 0.178,
+    "2022": 0.179,
+    "2023": 0.171,
+    "2024": 0.172,
+    "2025": 0.179
+   }
+  },
+  "C++": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.179,
+   "last_share": 0.192,
+   "change_pts": 1.3,
+   "by_year": {
+    "2021": 0.179,
+    "2022": 0.164,
+    "2023": 0.168,
+    "2024": 0.182,
+    "2025": 0.192
+   }
+  },
+  "Express": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.194,
+   "last_share": 0.149,
+   "change_pts": -4.5,
+   "by_year": {
+    "2021": 0.194,
+    "2022": 0.177,
+    "2023": 0.154,
+    "2024": 0.146,
+    "2025": 0.149
+   }
+  },
+  "MariaDB": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.153,
+   "last_share": 0.179,
+   "change_pts": 2.5,
+   "by_year": {
+    "2021": 0.153,
+    "2022": 0.15,
+    "2023": 0.151,
+    "2024": 0.153,
+    "2025": 0.179
+   }
+  },
+  "Vue.js": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.17,
+   "last_share": 0.145,
+   "change_pts": -2.5,
+   "by_year": {
+    "2021": 0.17,
+    "2022": 0.159,
+    "2023": 0.147,
+    "2024": 0.142,
+    "2025": 0.145
+   }
+  },
+  "Elasticsearch": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.152,
+   "last_share": 0.163,
+   "change_pts": 1.1,
+   "by_year": {
+    "2021": 0.152,
+    "2022": 0.139,
+    "2023": 0.151,
+    "2024": 0.139,
+    "2025": 0.163
+   }
+  },
+  "PowerShell": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.114,
+   "last_share": 0.239,
+   "change_pts": 12.5,
+   "by_year": {
+    "2021": 0.114,
+    "2022": 0.125,
+    "2023": 0.144,
+    "2024": 0.148,
+    "2025": 0.239
+   }
+  },
+  "C": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.144,
+   "last_share": 0.161,
+   "change_pts": 1.7,
+   "by_year": {
+    "2021": 0.144,
+    "2022": 0.127,
+    "2023": 0.13,
+    "2024": 0.147,
+    "2025": 0.161
+   }
+  },
+  "Go": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.109,
+   "last_share": 0.175,
+   "change_pts": 6.6,
+   "by_year": {
+    "2021": 0.109,
+    "2022": 0.12,
+    "2023": 0.148,
+    "2024": 0.152,
+    "2025": 0.175
+   }
+  },
+  "ASP.NET": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.148,
+   "last_share": 0.122,
+   "change_pts": -2.5,
+   "by_year": {
+    "2021": 0.148,
+    "2022": 0.135,
+    "2023": 0.121,
+    "2024": 0.123,
+    "2025": 0.122
+   }
+  },
+  "Terraform": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.092,
+   "last_share": 0.174,
+   "change_pts": 8.2,
+   "by_year": {
+    "2021": 0.092,
+    "2022": 0.118,
+    "2023": 0.142,
+    "2024": 0.129,
+    "2025": 0.174
+   }
+  },
+  "Firebase": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.133,
+   "last_share": 0.102,
+   "change_pts": -3.1,
+   "by_year": {
+    "2021": 0.133,
+    "2022": 0.14,
+    "2023": 0.113,
+    "2024": 0.104,
+    "2025": 0.102
+   }
+  },
+  ".NET Framework": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.224,
+   "last_share": 0.146,
+   "change_pts": -7.8,
+   "by_year": {
+    "2021": 0.224,
+    "2022": 0.0,
+    "2023": 0.152,
+    "2024": 0.146,
+    "2025": 0.0
+   }
+  },
+  "NumPy": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.145,
+   "last_share": 0.139,
+   "change_pts": -0.6,
+   "by_year": {
+    "2021": 0.145,
+    "2022": 0.133,
+    "2023": 0.116,
+    "2024": 0.139,
+    "2025": 0.0
+   }
+  },
+  "DigitalOcean": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.132,
+   "last_share": 0.091,
+   "change_pts": -4.1,
+   "by_year": {
+    "2021": 0.132,
+    "2022": 0.123,
+    "2023": 0.116,
+    "2024": 0.101,
+    "2025": 0.091
+   }
+  },
+  "Pandas": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.131,
+   "last_share": 0.144,
+   "change_pts": 1.3,
+   "by_year": {
+    "2021": 0.131,
+    "2022": 0.126,
+    "2023": 0.12,
+    "2024": 0.144,
+    "2025": 0.0
+   }
+  },
+  "Spring": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.136,
+   "last_share": 0.104,
+   "change_pts": -3.3,
+   "by_year": {
+    "2021": 0.136,
+    "2022": 0.125,
+    "2023": 0.102,
+    "2024": 0.104,
+    "2025": 0.0
+   }
+  },
+  "Heroku": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.145,
+   "last_share": 0.044,
+   "change_pts": -10.1,
+   "by_year": {
+    "2021": 0.145,
+    "2022": 0.125,
+    "2023": 0.088,
+    "2024": 0.062,
+    "2025": 0.044
+   }
+  },
+  "Next.js": {
+   "trend": "rising",
+   "first_year": 2022,
+   "last_year": 2025,
+   "first_share": 0.108,
+   "last_share": 0.163,
+   "change_pts": 5.5,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.108,
+    "2023": 0.14,
+    "2024": 0.154,
+    "2025": 0.163
+   }
+  },
+  "Flask": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.111,
+   "last_share": 0.097,
+   "change_pts": -1.4,
+   "by_year": {
+    "2021": 0.111,
+    "2022": 0.097,
+    "2023": 0.088,
+    "2024": 0.097,
+    "2025": 0.097
+   }
+  },
+  "Rust": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.063,
+   "last_share": 0.136,
+   "change_pts": 7.4,
+   "by_year": {
+    "2021": 0.063,
+    "2022": 0.082,
+    "2023": 0.114,
+    "2024": 0.126,
+    "2025": 0.136
+   }
+  },
+  "Oracle": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.111,
+   "last_share": 0.089,
+   "change_pts": -2.3,
+   "by_year": {
+    "2021": 0.111,
+    "2022": 0.101,
+    "2023": 0.087,
+    "2024": 0.09,
+    "2025": 0.089
+   }
+  },
+  "Kotlin": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.089,
+   "last_share": 0.113,
+   "change_pts": 2.4,
+   "by_year": {
+    "2021": 0.089,
+    "2022": 0.094,
+    "2023": 0.096,
+    "2024": 0.098,
+    "2025": 0.113
+   }
+  },
+  "DynamoDB": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.085,
+   "last_share": 0.099,
+   "change_pts": 1.3,
+   "by_year": {
+    "2021": 0.085,
+    "2022": 0.094,
+    "2023": 0.106,
+    "2024": 0.093,
+    "2025": 0.099
+   }
+  },
+  "Django": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.101,
+   "last_share": 0.086,
+   "change_pts": -1.4,
+   "by_year": {
+    "2021": 0.101,
+    "2022": 0.098,
+    "2023": 0.084,
+    "2024": 0.092,
+    "2025": 0.086
+   }
+  },
+  "Ansible": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.081,
+   "last_share": 0.098,
+   "change_pts": 1.6,
+   "by_year": {
+    "2021": 0.081,
+    "2022": 0.087,
+    "2023": 0.091,
+    "2024": 0.083,
+    "2025": 0.098
+   }
+  },
+  "AngularJS": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.104,
+   "last_share": 0.058,
+   "change_pts": -4.7,
+   "by_year": {
+    "2021": 0.104,
+    "2022": 0.079,
+    "2023": 0.066,
+    "2024": 0.061,
+    "2025": 0.058
+   }
+  },
+  "Ruby": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.085,
+   "last_share": 0.073,
+   "change_pts": -1.2,
+   "by_year": {
+    "2021": 0.085,
+    "2022": 0.076,
+    "2023": 0.077,
+    "2024": 0.062,
+    "2025": 0.073
+   }
+  },
+  "Laravel": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.086,
+   "last_share": 0.067,
+   "change_pts": -1.8,
+   "by_year": {
+    "2021": 0.086,
+    "2022": 0.075,
+    "2023": 0.063,
+    "2024": 0.07,
+    "2025": 0.067
+   }
+  },
+  "React Native": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.094,
+   "last_share": 0.066,
+   "change_pts": -2.8,
+   "by_year": {
+    "2021": 0.094,
+    "2022": 0.084,
+    "2023": 0.066,
+    "2024": 0.066,
+    "2025": 0.0
+   }
+  },
+  "Cloudflare": {
+   "trend": "rising",
+   "first_year": 2023,
+   "last_year": 2025,
+   "first_share": 0.123,
+   "last_share": 0.164,
+   "change_pts": 4.2,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.123,
+    "2024": 0.121,
+    "2025": 0.164
+   }
+  },
+  "Spring Boot": {
+   "trend": "stable",
+   "first_year": 2023,
+   "last_year": 2025,
+   "first_share": 0.115,
+   "last_share": 0.123,
+   "change_pts": 0.8,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.115,
+    "2024": 0.121,
+    "2025": 0.123
+   }
+  },
+  "FastAPI": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.032,
+   "last_share": 0.116,
+   "change_pts": 8.4,
+   "by_year": {
+    "2021": 0.032,
+    "2022": 0.047,
+    "2023": 0.065,
+    "2024": 0.089,
+    "2025": 0.116
+   }
+  },
+  "Ruby on Rails": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.072,
+   "last_share": 0.052,
+   "change_pts": -1.9,
+   "by_year": {
+    "2021": 0.072,
+    "2022": 0.058,
+    "2023": 0.058,
+    "2024": 0.048,
+    "2025": 0.052
+   }
+  },
+  "Flutter": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.071,
+   "last_share": 0.067,
+   "change_pts": -0.4,
+   "by_year": {
+    "2021": 0.071,
+    "2022": 0.068,
+    "2023": 0.06,
+    "2024": 0.067,
+    "2025": 0.0
+   }
+  },
+  "TensorFlow": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.074,
+   "last_share": 0.063,
+   "change_pts": -1.1,
+   "by_year": {
+    "2021": 0.074,
+    "2022": 0.059,
+    "2023": 0.053,
+    "2024": 0.063,
+    "2025": 0.0
+   }
+  },
+  "Apache Kafka": {
+   "trend": "stable",
+   "first_year": 2022,
+   "last_year": 2024,
+   "first_share": 0.086,
+   "last_share": 0.09,
+   "change_pts": 0.4,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.086,
+    "2023": 0.087,
+    "2024": 0.09,
+    "2025": 0.0
+   }
+  },
+  "Dart": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.054,
+   "last_share": 0.052,
+   "change_pts": -0.2,
+   "by_year": {
+    "2021": 0.054,
+    "2022": 0.054,
+    "2023": 0.051,
+    "2024": 0.055,
+    "2025": 0.052
+   }
+  },
+  "Swift": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.055,
+   "last_share": 0.056,
+   "change_pts": 0.1,
+   "by_year": {
+    "2021": 0.055,
+    "2022": 0.051,
+    "2023": 0.049,
+    "2024": 0.047,
+    "2025": 0.056
+   }
+  },
+  "WordPress": {
+   "trend": "stable",
+   "first_year": 2023,
+   "last_year": 2025,
+   "first_share": 0.096,
+   "last_share": 0.095,
+   "change_pts": -0.2,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.096,
+    "2024": 0.088,
+    "2025": 0.095
+   }
+  },
+  "Unity 3D": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.06,
+   "last_share": 0.039,
+   "change_pts": -2.1,
+   "by_year": {
+    "2021": 0.06,
+    "2022": 0.056,
+    "2023": 0.046,
+    "2024": 0.039,
+    "2025": 0.0
+   }
+  },
+  "Groovy": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.038,
+   "last_share": 0.055,
+   "change_pts": 1.7,
+   "by_year": {
+    "2021": 0.038,
+    "2022": 0.043,
+    "2023": 0.043,
+    "2024": 0.04,
+    "2025": 0.055
+   }
+  },
+  "RabbitMQ": {
+   "trend": "stable",
+   "first_year": 2023,
+   "last_year": 2024,
+   "first_share": 0.102,
+   "last_share": 0.109,
+   "change_pts": 0.8,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.102,
+    "2024": 0.109,
+    "2025": 0.0
+   }
+  },
+  "Vercel": {
+   "trend": "stable",
+   "first_year": 2023,
+   "last_year": 2025,
+   "first_share": 0.077,
+   "last_share": 0.082,
+   "change_pts": 0.4,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.077,
+    "2024": 0.085,
+    "2025": 0.082
+   }
+  },
+  "PyTorch": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.042,
+   "last_share": 0.065,
+   "change_pts": 2.3,
+   "by_year": {
+    "2021": 0.042,
+    "2022": 0.038,
+    "2023": 0.049,
+    "2024": 0.065,
+    "2025": 0.0
+   }
+  },
+  "Svelte": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.022,
+   "last_share": 0.053,
+   "change_pts": 3.1,
+   "by_year": {
+    "2021": 0.022,
+    "2022": 0.031,
+    "2023": 0.047,
+    "2024": 0.051,
+    "2025": 0.053
+   }
+  },
+  "Qt": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.046,
+   "last_share": 0.047,
+   "change_pts": 0.1,
+   "by_year": {
+    "2021": 0.046,
+    "2022": 0.042,
+    "2023": 0.039,
+    "2024": 0.047,
+    "2025": 0.0
+   }
+  },
+  "Cloud Firestore": {
+   "trend": "stable",
+   "first_year": 2022,
+   "last_year": 2025,
+   "first_share": 0.057,
+   "last_share": 0.042,
+   "change_pts": -1.5,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.057,
+    "2023": 0.051,
+    "2024": 0.046,
+    "2025": 0.042
+   }
+  },
+  "Firebase Realtime Database": {
+   "trend": "declining",
+   "first_year": 2022,
+   "last_year": 2025,
+   "first_share": 0.063,
+   "last_share": 0.035,
+   "change_pts": -2.9,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.063,
+    "2023": 0.048,
+    "2024": 0.044,
+    "2025": 0.035
+   }
+  },
+  "Lua": {
+   "trend": "rising",
+   "first_year": 2022,
+   "last_year": 2025,
+   "first_share": 0.029,
+   "last_share": 0.08,
+   "change_pts": 5.1,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.029,
+    "2023": 0.048,
+    "2024": 0.053,
+    "2025": 0.08
+   }
+  },
+  "Scikit-learn": {
+   "trend": "stable",
+   "first_year": 2022,
+   "last_year": 2024,
+   "first_share": 0.059,
+   "last_share": 0.066,
+   "change_pts": 0.7,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.059,
+    "2023": 0.053,
+    "2024": 0.066,
+    "2025": 0.0
+   }
+  },
+  "Blazor": {
+   "trend": "rising",
+   "first_year": 2022,
+   "last_year": 2025,
+   "first_share": 0.04,
+   "last_share": 0.062,
+   "change_pts": 2.2,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.04,
+    "2023": 0.047,
+    "2024": 0.048,
+    "2025": 0.062
+   }
+  },
+  "VBA": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.041,
+   "last_share": 0.032,
+   "change_pts": -0.8,
+   "by_year": {
+    "2021": 0.041,
+    "2022": 0.037,
+    "2023": 0.028,
+    "2024": 0.029,
+    "2025": 0.032
+   }
+  },
+  "Symfony": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.036,
+   "last_share": 0.036,
+   "change_pts": -0.0,
+   "by_year": {
+    "2021": 0.036,
+    "2022": 0.033,
+    "2023": 0.032,
+    "2024": 0.031,
+    "2025": 0.036
+   }
+  },
+  "Assembly": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.034,
+   "last_share": 0.043,
+   "change_pts": 0.9,
+   "by_year": {
+    "2021": 0.034,
+    "2022": 0.03,
+    "2023": 0.031,
+    "2024": 0.033,
+    "2025": 0.043
+   }
+  },
+  "Electron": {
+   "trend": "stable",
+   "first_year": 2022,
+   "last_year": 2024,
+   "first_share": 0.058,
+   "last_share": 0.047,
+   "change_pts": -1.0,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.058,
+    "2023": 0.048,
+    "2024": 0.047,
+    "2025": 0.0
+   }
+  },
+  "Scala": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.031,
+   "last_share": 0.027,
+   "change_pts": -0.4,
+   "by_year": {
+    "2021": 0.031,
+    "2022": 0.031,
+    "2023": 0.034,
+    "2024": 0.031,
+    "2025": 0.027
+   }
+  },
+  "Apache Spark": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.036,
+   "last_share": 0.037,
+   "change_pts": 0.1,
+   "by_year": {
+    "2021": 0.036,
+    "2022": 0.034,
+    "2023": 0.036,
+    "2024": 0.037,
+    "2025": 0.0
+   }
+  },
+  "VMware": {
+   "trend": "stable",
+   "first_year": 2022,
+   "last_year": 2024,
+   "first_share": 0.051,
+   "last_share": 0.045,
+   "change_pts": -0.6,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.051,
+    "2023": 0.048,
+    "2024": 0.045,
+    "2025": 0.0
+   }
+  },
+  "Netlify": {
+   "trend": "declining",
+   "first_year": 2023,
+   "last_year": 2025,
+   "first_share": 0.064,
+   "last_share": 0.044,
+   "change_pts": -2.0,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.064,
+    "2024": 0.048,
+    "2025": 0.044
+   }
+  },
+  "R": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.031,
+   "last_share": 0.028,
+   "change_pts": -0.3,
+   "by_year": {
+    "2021": 0.031,
+    "2022": 0.027,
+    "2023": 0.025,
+    "2024": 0.03,
+    "2025": 0.028
+   }
+  },
+  "Xamarin": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.039,
+   "last_share": 0.023,
+   "change_pts": -1.5,
+   "by_year": {
+    "2021": 0.039,
+    "2022": 0.035,
+    "2023": 0.027,
+    "2024": 0.023,
+    "2025": 0.0
+   }
+  },
+  "Cordova": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.049,
+   "last_share": 0.019,
+   "change_pts": -3.0,
+   "by_year": {
+    "2021": 0.049,
+    "2022": 0.03,
+    "2023": 0.02,
+    "2024": 0.019,
+    "2025": 0.0
+   }
+  },
+  "Keras": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.043,
+   "last_share": 0.026,
+   "change_pts": -1.7,
+   "by_year": {
+    "2021": 0.043,
+    "2022": 0.031,
+    "2023": 0.022,
+    "2024": 0.026,
+    "2025": 0.0
+   }
+  },
+  "NestJS": {
+   "trend": "stable",
+   "first_year": 2023,
+   "last_year": 2025,
+   "first_share": 0.046,
+   "last_share": 0.056,
+   "change_pts": 0.9,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.046,
+    "2024": 0.055,
+    "2025": 0.056
+   }
+  },
+  "Elixir": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.023,
+   "last_share": 0.028,
+   "change_pts": 0.5,
+   "by_year": {
+    "2021": 0.023,
+    "2022": 0.027,
+    "2023": 0.028,
+    "2024": 0.027,
+    "2025": 0.028
+   }
+  },
+  "BigQuery": {
+   "trend": "stable",
+   "first_year": 2023,
+   "last_year": 2025,
+   "first_share": 0.047,
+   "last_share": 0.058,
+   "change_pts": 1.2,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.047,
+    "2024": 0.047,
+    "2025": 0.058
+   }
+  },
+  "Gatsby": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.037,
+   "last_share": 0.015,
+   "change_pts": -2.3,
+   "by_year": {
+    "2021": 0.037,
+    "2022": 0.031,
+    "2023": 0.023,
+    "2024": 0.015,
+    "2025": 0.0
+   }
+  },
+  "Objective-C": {
+   "trend": "declining",
+   "first_year": 2021,
+   "last_year": 2024,
+   "first_share": 0.032,
+   "last_share": 0.021,
+   "change_pts": -1.1,
+   "by_year": {
+    "2021": 0.032,
+    "2022": 0.027,
+    "2023": 0.026,
+    "2024": 0.021,
+    "2025": 0.0
+   }
+  },
+  "Delphi": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.022,
+   "last_share": 0.02,
+   "change_pts": -0.2,
+   "by_year": {
+    "2021": 0.022,
+    "2022": 0.03,
+    "2023": 0.026,
+    "2024": 0.018,
+    "2025": 0.02
+   }
+  },
+  "Cassandra": {
+   "trend": "stable",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.025,
+   "last_share": 0.023,
+   "change_pts": -0.3,
+   "by_year": {
+    "2021": 0.025,
+    "2022": 0.023,
+    "2023": 0.024,
+    "2024": 0.023,
+    "2025": 0.023
+   }
+  },
+  "Perl": {
+   "trend": "rising",
+   "first_year": 2021,
+   "last_year": 2025,
+   "first_share": 0.023,
+   "last_share": 0.034,
+   "change_pts": 1.0,
+   "by_year": {
+    "2021": 0.023,
+    "2022": 0.021,
+    "2023": 0.023,
+    "2024": 0.022,
+    "2025": 0.034
+   }
+  },
+  "Nuxt.js": {
+   "trend": "stable",
+   "first_year": 2022,
+   "last_year": 2025,
+   "first_share": 0.03,
+   "last_share": 0.031,
+   "change_pts": 0.1,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.03,
+    "2023": 0.032,
+    "2024": 0.033,
+    "2025": 0.031
+   }
+  },
+  "Cosmos DB": {
+   "trend": "stable",
+   "first_year": 2023,
+   "last_year": 2025,
+   "first_share": 0.041,
+   "last_share": 0.045,
+   "change_pts": 0.4,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.041,
+    "2024": 0.037,
+    "2025": 0.045
+   }
+  },
+  "H2": {
+   "trend": "stable",
+   "first_year": 2023,
+   "last_year": 2025,
+   "first_share": 0.037,
+   "last_share": 0.044,
+   "change_pts": 0.7,
+   "by_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.037,
+    "2024": 0.039,
+    "2025": 0.044
+   }
+  }
+ },
+ "top_rising": [
+  "Bash/Shell",
+  "Python",
+  "PowerShell",
+  "TypeScript",
+  "SQL",
+  "PostgreSQL",
+  "Docker",
+  "FastAPI",
+  "Terraform",
+  "Rust",
+  "Kubernetes",
+  "Go"
+ ],
+ "top_declining": [
+  "Heroku",
+  "jQuery",
+  "MySQL",
+  ".NET Framework",
+  "Angular",
+  "MongoDB",
+  "Java",
+  "AngularJS"
+ ],
+ "ai_usage_by_year": {
+  "2023": 0.432,
+  "2024": 0.632,
+  "2025": 0.813
+ }
+}

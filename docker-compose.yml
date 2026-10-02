@@ -1,0 +1,23 @@
+# Runs Apache Cassandra locally for the DevAscend project.
+# Start:  docker compose up -d
+# Stop:   docker compose down        (data is kept in the "cassandra_data" volume)
+services:
+  cassandra:
+    image: cassandra:4.1
+    container_name: devascend-cassandra
+    ports:
+      - "9042:9042"          # CQL port used by the Python driver
+    environment:
+      CASSANDRA_CLUSTER_NAME: devascend
+      MAX_HEAP_SIZE: 1G      # keep memory usage laptop-friendly
+      HEAP_NEWSIZE: 256M
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'describe keyspaces' || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+
+volumes:
+  cassandra_data:

@@ -1,0 +1,2175 @@
+{
+  "_about": "DevAscend knowledge base. Each topic = something worth learning. requires_any: you need at least ONE of these (survey skill names or topic ids). survey_skill: links the topic to the ML data (market value boost + trend). type: 'skill' (technology), 'essential' (workplace skill juniors usually discover late), 'trend' (where the market is going). level: when it is usually learned. core_for: roles for which this topic is a core skill (ranked higher).",
+  "topics": [
+    {
+      "id": "html-css",
+      "name": "HTML/CSS",
+      "survey_skill": "HTML/CSS",
+      "category": "Frontend",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "Front-end",
+        "Full-stack",
+        "Mobile",
+        "Other"
+      ],
+      "core_for": [
+        "Front-end"
+      ],
+      "hours": 40,
+      "trend": "stable",
+      "why": "The foundation of every web page. Everything in frontend builds on it.",
+      "learn": [
+        "Semantic HTML",
+        "Box model",
+        "Flexbox and Grid",
+        "Responsive design"
+      ],
+      "resources": [
+        {
+          "title": "MDN: Learn web development",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn",
+          "type": "docs"
+        },
+        {
+          "title": "web.dev: Learn CSS",
+          "url": "https://web.dev/learn/css",
+          "type": "course"
+        },
+        {
+          "title": "freeCodeCamp: Responsive Web Design",
+          "url": "https://www.freecodecamp.org/learn",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "survey_skill": "JavaScript",
+      "category": "Frontend",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "Front-end",
+        "Full-stack"
+      ],
+      "hours": 80,
+      "trend": "stable",
+      "why": "The most used language in the survey; needed for any web work, frontend or backend (Node.js).",
+      "learn": [
+        "Variables, functions, arrays, objects",
+        "DOM",
+        "Promises and async/await",
+        "Modules",
+        "fetch()"
+      ],
+      "resources": [
+        {
+          "title": "javascript.info (The Modern JavaScript Tutorial)",
+          "url": "https://javascript.info",
+          "type": "docs"
+        },
+        {
+          "title": "MDN JavaScript Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "type": "docs"
+        },
+        {
+          "title": "Chai aur Code (YouTube, Hindi)",
+          "url": "https://www.youtube.com/@chaiaurcode",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "tailwind",
+      "name": "Tailwind CSS",
+      "survey_skill": null,
+      "category": "Frontend",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [
+        "HTML/CSS"
+      ],
+      "roles": [
+        "Front-end",
+        "Full-stack",
+        "Other"
+      ],
+      "core_for": [
+        "Front-end"
+      ],
+      "hours": 15,
+      "trend": "rising",
+      "why": "You already know CSS. Tailwind lets you style much faster with utility classes, and it is the default in many new React / Next.js projects and job listings.",
+      "learn": [
+        "Utility classes",
+        "Responsive prefixes (md:, lg:)",
+        "Hover/focus states",
+        "Dark mode",
+        "Reusing styles with components"
+      ],
+      "resources": [
+        {
+          "title": "Tailwind CSS official docs",
+          "url": "https://tailwindcss.com/docs",
+          "type": "docs"
+        },
+        {
+          "title": "Tailwind Play (try it in the browser)",
+          "url": "https://play.tailwindcss.com",
+          "type": "practice"
+        },
+        {
+          "title": "Traversy Media (YouTube)",
+          "url": "https://www.youtube.com/@TraversyMedia",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "survey_skill": "TypeScript",
+      "category": "Frontend",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [
+        "JavaScript"
+      ],
+      "roles": [
+        "Front-end",
+        "Full-stack",
+        "Back-end",
+        "Mobile",
+        "Other"
+      ],
+      "core_for": [
+        "Front-end",
+        "Full-stack"
+      ],
+      "hours": 40,
+      "trend": "rising",
+      "why": "JavaScript with types. It catches bugs before you run the code, and most professional JS teams now require it.",
+      "learn": [
+        "Basic types and interfaces",
+        "Generics",
+        "Typing React props",
+        "tsconfig"
+      ],
+      "resources": [
+        {
+          "title": "TypeScript Handbook",
+          "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+          "type": "docs"
+        },
+        {
+          "title": "Total TypeScript free tutorials",
+          "url": "https://www.totaltypescript.com/tutorials",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "survey_skill": "React",
+      "category": "Frontend",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [
+        "JavaScript"
+      ],
+      "roles": [
+        "Front-end",
+        "Full-stack",
+        "Mobile",
+        "Other"
+      ],
+      "core_for": [
+        "Front-end",
+        "Full-stack"
+      ],
+      "hours": 60,
+      "trend": "stable",
+      "why": "The most popular frontend library. Components, state and hooks are asked about in almost every frontend interview.",
+      "learn": [
+        "Components and props",
+        "useState / useEffect",
+        "Lists and keys",
+        "Forms",
+        "Fetching data"
+      ],
+      "resources": [
+        {
+          "title": "react.dev: Learn React",
+          "url": "https://react.dev/learn",
+          "type": "docs"
+        },
+        {
+          "title": "Full Stack Open (University of Helsinki)",
+          "url": "https://fullstackopen.com/en/",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "survey_skill": "Next.js",
+      "category": "Frontend",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "React"
+      ],
+      "roles": [
+        "Front-end",
+        "Full-stack"
+      ],
+      "core_for": [
+        "Front-end",
+        "Full-stack"
+      ],
+      "hours": 40,
+      "trend": "rising",
+      "why": "The standard React framework for production: routing, server rendering, SEO and API routes in one place.",
+      "learn": [
+        "App Router",
+        "Server vs client components",
+        "Data fetching and caching",
+        "Deploying to Vercel"
+      ],
+      "resources": [
+        {
+          "title": "Next.js Learn course (official)",
+          "url": "https://nextjs.org/learn",
+          "type": "course"
+        },
+        {
+          "title": "Next.js docs",
+          "url": "https://nextjs.org/docs",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "state-management",
+      "name": "State management & data fetching",
+      "survey_skill": null,
+      "category": "Frontend",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "React",
+        "Vue.js",
+        "Angular"
+      ],
+      "roles": [
+        "Front-end",
+        "Full-stack",
+        "Mobile"
+      ],
+      "core_for": [],
+      "hours": 25,
+      "trend": "stable",
+      "why": "Real apps share data between many screens. Tools like TanStack Query and Redux Toolkit stop bugs from duplicated or outdated data.",
+      "learn": [
+        "Local vs global state",
+        "Server state (caching, refetching)",
+        "Redux Toolkit or Zustand basics"
+      ],
+      "resources": [
+        {
+          "title": "TanStack Query docs",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/overview",
+          "type": "docs"
+        },
+        {
+          "title": "Redux Toolkit quick start",
+          "url": "https://redux-toolkit.js.org/tutorials/quick-start",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "form-validation",
+      "name": "Form validation (client side)",
+      "survey_skill": null,
+      "category": "Frontend",
+      "type": "essential",
+      "level": "Junior",
+      "requires_any": [
+        "HTML/CSS",
+        "JavaScript",
+        "React"
+      ],
+      "roles": [
+        "Front-end",
+        "Full-stack",
+        "Mobile",
+        "Other"
+      ],
+      "core_for": [],
+      "hours": 10,
+      "trend": "stable",
+      "why": "Every real app has forms: login, signup, checkout. At work you must validate input, show clear error messages and handle loading states. Tutorials usually skip this.",
+      "learn": [
+        "HTML5 validation (required, pattern, type)",
+        "Showing error messages",
+        "React Hook Form",
+        "Schema validation with Zod",
+        "Disabling submit while loading"
+      ],
+      "resources": [
+        {
+          "title": "MDN: Client-side form validation",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
+          "type": "docs"
+        },
+        {
+          "title": "React Hook Form docs",
+          "url": "https://react-hook-form.com/get-started",
+          "type": "docs"
+        },
+        {
+          "title": "Zod docs",
+          "url": "https://zod.dev",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "name": "Web accessibility (a11y)",
+      "survey_skill": null,
+      "category": "Frontend",
+      "type": "essential",
+      "level": "Mid",
+      "requires_any": [
+        "HTML/CSS"
+      ],
+      "roles": [
+        "Front-end",
+        "Full-stack"
+      ],
+      "core_for": [],
+      "hours": 12,
+      "trend": "stable",
+      "why": "Your site must work with a keyboard and screen readers. Many companies are legally required to do this, and it is checked in code reviews.",
+      "learn": [
+        "Semantic HTML and labels",
+        "Keyboard navigation and focus",
+        "Color contrast",
+        "ARIA basics"
+      ],
+      "resources": [
+        {
+          "title": "web.dev: Learn Accessibility",
+          "url": "https://web.dev/learn/accessibility",
+          "type": "course"
+        },
+        {
+          "title": "MDN: Accessibility",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "web-performance",
+      "name": "Web performance",
+      "survey_skill": null,
+      "category": "Frontend",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "JavaScript"
+      ],
+      "roles": [
+        "Front-end",
+        "Full-stack"
+      ],
+      "core_for": [],
+      "hours": 12,
+      "trend": "stable",
+      "why": "Slow sites lose users. Knowing Core Web Vitals, lazy loading and bundle size is what separates Mid from Junior frontend developers.",
+      "learn": [
+        "Core Web Vitals (LCP, INP, CLS)",
+        "Lighthouse",
+        "Image optimization and lazy loading",
+        "Code splitting"
+      ],
+      "resources": [
+        {
+          "title": "web.dev: Learn Performance",
+          "url": "https://web.dev/learn/performance",
+          "type": "course"
+        },
+        {
+          "title": "Chrome DevTools: Performance",
+          "url": "https://developer.chrome.com/docs/devtools/performance",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "Automated testing",
+      "survey_skill": null,
+      "category": "Engineering",
+      "type": "essential",
+      "level": "Junior",
+      "requires_any": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "C#",
+        "Go",
+        "PHP",
+        "TypeScript"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "QA/Test"
+      ],
+      "hours": 20,
+      "trend": "stable",
+      "why": "In a job, code is not 'done' until it has tests. Unit tests and end-to-end tests let a team change code without breaking things.",
+      "learn": [
+        "Unit tests (Jest / Vitest / pytest / JUnit)",
+        "Testing React components (Testing Library)",
+        "End-to-end tests (Playwright)",
+        "Mocking"
+      ],
+      "resources": [
+        {
+          "title": "Vitest guide",
+          "url": "https://vitest.dev/guide/",
+          "type": "docs"
+        },
+        {
+          "title": "Testing Library docs",
+          "url": "https://testing-library.com/docs/",
+          "type": "docs"
+        },
+        {
+          "title": "Playwright docs",
+          "url": "https://playwright.dev/docs/intro",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "survey_skill": "Node.js",
+      "category": "Backend",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [
+        "JavaScript"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "Front-end",
+        "Other"
+      ],
+      "core_for": [
+        "Back-end",
+        "Full-stack"
+      ],
+      "hours": 40,
+      "trend": "stable",
+      "why": "Lets you use the JavaScript you already know on the server, which is the fastest path to becoming full-stack.",
+      "learn": [
+        "Modules and npm",
+        "File system and events",
+        "Building an HTTP server",
+        "Async patterns"
+      ],
+      "resources": [
+        {
+          "title": "Node.js: Learn",
+          "url": "https://nodejs.org/en/learn",
+          "type": "docs"
+        },
+        {
+          "title": "Full Stack Open: Part 3 (Node + Express)",
+          "url": "https://fullstackopen.com/en/part3",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "express",
+      "name": "Express",
+      "survey_skill": "Express",
+      "category": "Backend",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [
+        "Node.js"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack"
+      ],
+      "core_for": [
+        "Back-end",
+        "Full-stack"
+      ],
+      "hours": 20,
+      "trend": "stable",
+      "why": "The most common Node.js web framework for building REST APIs.",
+      "learn": [
+        "Routing",
+        "Middleware",
+        "Error handling middleware",
+        "Connecting a database"
+      ],
+      "resources": [
+        {
+          "title": "Express official guide",
+          "url": "https://expressjs.com/en/guide/routing.html",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "rest-api-design",
+      "name": "REST API design",
+      "survey_skill": null,
+      "category": "Backend",
+      "type": "essential",
+      "level": "Junior",
+      "requires_any": [
+        "Node.js",
+        "Express",
+        "Python",
+        "Java",
+        "C#",
+        "PHP",
+        "Go",
+        "Django",
+        "Flask",
+        "FastAPI",
+        "Spring Boot"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "Mobile",
+        "Other"
+      ],
+      "core_for": [
+        "Back-end",
+        "Full-stack"
+      ],
+      "hours": 10,
+      "trend": "stable",
+      "why": "Making an API that works is easy; making one other developers can use is a skill: correct HTTP status codes, consistent URLs, pagination and versioning.",
+      "learn": [
+        "Resources and HTTP verbs",
+        "Status codes (200, 201, 400, 401, 404, 500)",
+        "Pagination and filtering",
+        "API versioning",
+        "Documenting with OpenAPI"
+      ],
+      "resources": [
+        {
+          "title": "Microsoft: Web API design best practices",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+          "type": "docs"
+        },
+        {
+          "title": "MDN: HTTP response status codes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "backend-validation",
+      "name": "Server-side validation & error handling",
+      "survey_skill": null,
+      "category": "Backend",
+      "type": "essential",
+      "level": "Junior",
+      "requires_any": [
+        "Node.js",
+        "Express",
+        "Python",
+        "Java",
+        "C#",
+        "PHP",
+        "Go",
+        "Django",
+        "Flask",
+        "FastAPI",
+        "Spring Boot"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "Other"
+      ],
+      "core_for": [],
+      "hours": 8,
+      "trend": "stable",
+      "why": "Never trust data from the browser: anyone can bypass frontend checks. Juniors often forget this until a production bug or a security issue teaches them.",
+      "learn": [
+        "Validate every request body (Zod / Joi / Pydantic / Bean Validation)",
+        "Return 400 with clear messages",
+        "Central error handler",
+        "Never leak stack traces to users"
+      ],
+      "resources": [
+        {
+          "title": "OWASP: Input Validation Cheat Sheet",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html",
+          "type": "docs"
+        },
+        {
+          "title": "OWASP: Error Handling Cheat Sheet",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "auth",
+      "name": "Authentication & authorization",
+      "survey_skill": null,
+      "category": "Backend",
+      "type": "essential",
+      "level": "Mid",
+      "requires_any": [
+        "Node.js",
+        "Express",
+        "Python",
+        "Java",
+        "C#",
+        "PHP",
+        "Go",
+        "Django",
+        "Flask",
+        "FastAPI",
+        "Spring Boot"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "Mobile",
+        "Other"
+      ],
+      "core_for": [],
+      "hours": 15,
+      "trend": "stable",
+      "why": "Almost every app has users. You need to know how passwords are hashed, how sessions and JWTs work, and how to check permissions.",
+      "learn": [
+        "Password hashing (bcrypt / argon2)",
+        "Sessions vs JWT",
+        "OAuth 2.0 / 'Login with Google'",
+        "Role-based access control"
+      ],
+      "resources": [
+        {
+          "title": "OWASP: Authentication Cheat Sheet",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+          "type": "docs"
+        },
+        {
+          "title": "jwt.io introduction",
+          "url": "https://jwt.io/introduction",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "survey_skill": "SQL",
+      "category": "Data",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "Back-end",
+        "Data Engineer",
+        "Data/ML"
+      ],
+      "hours": 30,
+      "trend": "stable",
+      "why": "One of the most used skills in the survey and needed in almost every backend and data job.",
+      "learn": [
+        "SELECT, WHERE, ORDER BY",
+        "JOINs",
+        "GROUP BY and aggregates",
+        "Indexes (basics)"
+      ],
+      "resources": [
+        {
+          "title": "SQLBolt (interactive lessons)",
+          "url": "https://sqlbolt.com",
+          "type": "practice"
+        },
+        {
+          "title": "PostgreSQL Tutorial",
+          "url": "https://www.postgresqltutorial.com",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "survey_skill": "PostgreSQL",
+      "category": "Data",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [
+        "SQL",
+        "MySQL",
+        "MongoDB",
+        "SQLite"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "Data Engineer",
+        "Data/ML",
+        "Other"
+      ],
+      "core_for": [
+        "Back-end",
+        "Data Engineer"
+      ],
+      "hours": 25,
+      "trend": "rising",
+      "why": "The most popular database among professional developers in recent surveys.",
+      "learn": [
+        "Tables, constraints, relations",
+        "Transactions",
+        "Indexes and EXPLAIN",
+        "JSONB"
+      ],
+      "resources": [
+        {
+          "title": "PostgreSQL official tutorial",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "type": "docs"
+        },
+        {
+          "title": "PostgreSQL Tutorial",
+          "url": "https://www.postgresqltutorial.com",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "db-design",
+      "name": "Database design & indexing",
+      "survey_skill": null,
+      "category": "Data",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Microsoft SQL Server"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "Data Engineer",
+        "Architect"
+      ],
+      "core_for": [
+        "Back-end",
+        "Data Engineer"
+      ],
+      "hours": 20,
+      "trend": "stable",
+      "why": "Bad table design and missing indexes are the most common reasons apps become slow as they grow.",
+      "learn": [
+        "Normalization",
+        "Choosing primary keys",
+        "Indexes and query plans",
+        "Transactions and isolation",
+        "When to use NoSQL"
+      ],
+      "resources": [
+        {
+          "title": "Use The Index, Luke (SQL indexing)",
+          "url": "https://use-the-index-luke.com",
+          "type": "book"
+        },
+        {
+          "title": "Hussein Nasser (YouTube, backend engineering)",
+          "url": "https://www.youtube.com/@hnasr",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "survey_skill": "MongoDB",
+      "category": "Data",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [
+        "JavaScript",
+        "Node.js",
+        "Python"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack"
+      ],
+      "core_for": [],
+      "hours": 20,
+      "trend": "stable",
+      "why": "Popular document database in the JavaScript (MERN) world.",
+      "learn": [
+        "Documents and collections",
+        "CRUD",
+        "Aggregation pipeline",
+        "Schema design"
+      ],
+      "resources": [
+        {
+          "title": "MongoDB University (free)",
+          "url": "https://learn.mongodb.com",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "redis",
+      "name": "Redis & caching",
+      "survey_skill": "Redis",
+      "category": "Backend",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "Node.js",
+        "Python",
+        "Java",
+        "C#",
+        "Go",
+        "PHP",
+        "Express"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "DevOps/Cloud",
+        "Architect"
+      ],
+      "core_for": [],
+      "hours": 15,
+      "trend": "stable",
+      "why": "Caching is the first tool for making a slow backend fast. Redis is also used for sessions, queues and rate limiting.",
+      "learn": [
+        "Key-value basics",
+        "Cache-aside pattern",
+        "Expiry (TTL)",
+        "Pub/Sub"
+      ],
+      "resources": [
+        {
+          "title": "Redis: Learn",
+          "url": "https://redis.io/learn",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL",
+      "survey_skill": null,
+      "category": "Backend",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "rest-api-design",
+        "Node.js",
+        "React"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "Front-end",
+        "Mobile"
+      ],
+      "core_for": [],
+      "hours": 15,
+      "trend": "stable",
+      "why": "An alternative to REST where the client asks for exactly the data it needs. It is common in larger frontend-heavy companies.",
+      "learn": [
+        "Schema and types",
+        "Queries and mutations",
+        "Resolvers",
+        "Apollo Client basics"
+      ],
+      "resources": [
+        {
+          "title": "graphql.org: Learn",
+          "url": "https://graphql.org/learn/",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "realtime",
+      "name": "Real-time apps (WebSockets)",
+      "survey_skill": null,
+      "category": "Backend",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "Node.js",
+        "JavaScript"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "Front-end"
+      ],
+      "core_for": [],
+      "hours": 10,
+      "trend": "stable",
+      "why": "Chats, notifications and live dashboards need servers that push data to the browser instead of waiting for requests.",
+      "learn": [
+        "WebSocket protocol",
+        "Socket.IO",
+        "Rooms and broadcasting",
+        "Scaling with Redis pub/sub"
+      ],
+      "resources": [
+        {
+          "title": "MDN: WebSockets API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+          "type": "docs"
+        },
+        {
+          "title": "Socket.IO tutorial",
+          "url": "https://socket.io/docs/v4/tutorial/introduction",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "message-queues",
+      "name": "Message queues (Kafka / RabbitMQ)",
+      "survey_skill": "Apache Kafka",
+      "category": "Backend",
+      "type": "skill",
+      "level": "Senior",
+      "requires_any": [
+        "Docker",
+        "Redis",
+        "Java",
+        "Go",
+        "Node.js",
+        "Python"
+      ],
+      "roles": [
+        "Back-end",
+        "Data Engineer",
+        "Architect",
+        "DevOps/Cloud"
+      ],
+      "core_for": [
+        "Data Engineer",
+        "Architect"
+      ],
+      "hours": 25,
+      "trend": "stable",
+      "why": "Big systems split work into services that talk through queues. This is a typical Senior backend topic and is linked to higher pay in the survey data.",
+      "learn": [
+        "Producers and consumers",
+        "Topics and partitions",
+        "At-least-once delivery",
+        "Event-driven architecture"
+      ],
+      "resources": [
+        {
+          "title": "Apache Kafka quickstart",
+          "url": "https://kafka.apache.org/quickstart",
+          "type": "docs"
+        },
+        {
+          "title": "RabbitMQ tutorials",
+          "url": "https://www.rabbitmq.com/tutorials",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "git-workflow",
+      "name": "Git & GitHub team workflow",
+      "survey_skill": null,
+      "category": "Engineering",
+      "type": "essential",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "*"
+      ],
+      "core_for": [],
+      "hours": 10,
+      "trend": "stable",
+      "why": "On day one at a job you work on branches, open pull requests, review code and resolve merge conflicts. Knowing only 'git add / commit / push' is not enough.",
+      "learn": [
+        "Branches and pull requests",
+        "Resolving merge conflicts",
+        "Rebase vs merge",
+        "Writing good commit messages",
+        "Code review etiquette"
+      ],
+      "resources": [
+        {
+          "title": "Learn Git Branching (interactive)",
+          "url": "https://learngitbranching.js.org",
+          "type": "practice"
+        },
+        {
+          "title": "Pro Git book (free)",
+          "url": "https://git-scm.com/book/en/v2",
+          "type": "book"
+        },
+        {
+          "title": "GitHub Skills (hands-on courses)",
+          "url": "https://skills.github.com",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "env-config",
+      "name": "Environment variables, config & secrets",
+      "survey_skill": null,
+      "category": "Engineering",
+      "type": "essential",
+      "level": "Junior",
+      "requires_any": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "C#",
+        "Go",
+        "PHP",
+        "Node.js"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [],
+      "hours": 4,
+      "trend": "stable",
+      "why": "Apps run in development, staging and production with different settings. Putting passwords or API keys in code (or on GitHub) is one of the most common junior mistakes.",
+      "learn": [
+        ".env files and process.env",
+        "Never commit secrets (.gitignore)",
+        "Separate dev / prod config",
+        "Secret managers (basics)"
+      ],
+      "resources": [
+        {
+          "title": "The Twelve-Factor App: Config",
+          "url": "https://12factor.net/config",
+          "type": "docs"
+        },
+        {
+          "title": "OWASP: Secrets Management Cheat Sheet",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "debugging",
+      "name": "Debugging & DevTools",
+      "survey_skill": null,
+      "category": "Engineering",
+      "type": "essential",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "*"
+      ],
+      "core_for": [],
+      "hours": 6,
+      "trend": "stable",
+      "why": "Most of a developer's time is spent reading and fixing code. Using breakpoints, the network tab and stack traces instead of console.log everywhere saves hours.",
+      "learn": [
+        "Breakpoints and stepping",
+        "Network tab (requests and responses)",
+        "Reading stack traces",
+        "Debugging in VS Code"
+      ],
+      "resources": [
+        {
+          "title": "Chrome DevTools docs",
+          "url": "https://developer.chrome.com/docs/devtools",
+          "type": "docs"
+        },
+        {
+          "title": "VS Code: Debugging",
+          "url": "https://code.visualstudio.com/docs/editor/debugging",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "security-basics",
+      "name": "Web security basics (OWASP Top 10)",
+      "survey_skill": null,
+      "category": "Engineering",
+      "type": "essential",
+      "level": "Mid",
+      "requires_any": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "C#",
+        "PHP",
+        "Go",
+        "Node.js"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "Security"
+      ],
+      "hours": 12,
+      "trend": "stable",
+      "why": "Every developer is responsible for security. XSS, SQL injection and broken access control are still the most common attacks.",
+      "learn": [
+        "SQL injection and parameterized queries",
+        "XSS and output escaping",
+        "CSRF",
+        "CORS",
+        "Broken access control"
+      ],
+      "resources": [
+        {
+          "title": "OWASP Top 10",
+          "url": "https://owasp.org/www-project-top-ten/",
+          "type": "docs"
+        },
+        {
+          "title": "PortSwigger Web Security Academy (free labs)",
+          "url": "https://portswigger.net/web-security",
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "id": "clean-code",
+      "name": "Clean code, code review & design patterns",
+      "survey_skill": null,
+      "category": "Engineering",
+      "type": "essential",
+      "level": "Mid",
+      "requires_any": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "C#",
+        "Go",
+        "PHP",
+        "TypeScript",
+        "C++"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [],
+      "hours": 15,
+      "trend": "stable",
+      "why": "Code is read far more than it is written. Seniors are judged on code that others can understand and change safely.",
+      "learn": [
+        "Naming and small functions",
+        "SOLID principles",
+        "Common design patterns",
+        "Giving and receiving code review"
+      ],
+      "resources": [
+        {
+          "title": "Refactoring Guru: design patterns and refactoring",
+          "url": "https://refactoring.guru/design-patterns",
+          "type": "docs"
+        },
+        {
+          "title": "Google Engineering Practices: code review",
+          "url": "https://google.github.io/eng-practices/review/",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "logging-monitoring",
+      "name": "Logging, monitoring & production debugging",
+      "survey_skill": null,
+      "category": "Engineering",
+      "type": "essential",
+      "level": "Mid",
+      "requires_any": [
+        "Node.js",
+        "Python",
+        "Java",
+        "C#",
+        "Go",
+        "Docker"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack",
+        "DevOps/Cloud",
+        "Architect"
+      ],
+      "core_for": [
+        "DevOps/Cloud"
+      ],
+      "hours": 10,
+      "trend": "stable",
+      "why": "When something breaks in production you can't attach a debugger. Good logs, metrics and alerts are how teams find problems.",
+      "learn": [
+        "Structured logging",
+        "Log levels",
+        "Metrics and dashboards",
+        "Tracing (OpenTelemetry basics)"
+      ],
+      "resources": [
+        {
+          "title": "OpenTelemetry: What is OpenTelemetry?",
+          "url": "https://opentelemetry.io/docs/what-is-opentelemetry/",
+          "type": "docs"
+        },
+        {
+          "title": "OWASP: Logging Cheat Sheet",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "linux-cli",
+      "name": "Linux & command line",
+      "survey_skill": "Bash/Shell",
+      "category": "DevOps",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "DevOps/Cloud"
+      ],
+      "hours": 15,
+      "trend": "stable",
+      "why": "Servers run Linux. You will use the terminal for Git, Docker, deployments and debugging.",
+      "learn": [
+        "Navigating files",
+        "Permissions",
+        "Pipes and grep",
+        "SSH",
+        "Simple shell scripts"
+      ],
+      "resources": [
+        {
+          "title": "Linux Journey",
+          "url": "https://linuxjourney.com",
+          "type": "course"
+        },
+        {
+          "title": "The Missing Semester of Your CS Education (MIT)",
+          "url": "https://missing.csail.mit.edu",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "survey_skill": "Docker",
+      "category": "DevOps",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [
+        "Node.js",
+        "Python",
+        "Java",
+        "C#",
+        "Go",
+        "PHP",
+        "Express",
+        "Django",
+        "Flask",
+        "Spring Boot",
+        "linux-cli",
+        "Bash/Shell"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "DevOps/Cloud",
+        "Back-end"
+      ],
+      "hours": 20,
+      "trend": "rising",
+      "why": "Packages your app so it runs the same everywhere. It is one of the most used tools among professional developers and appears in most backend job posts.",
+      "learn": [
+        "Images and containers",
+        "Writing a Dockerfile",
+        "Docker Compose",
+        "Volumes and networks"
+      ],
+      "resources": [
+        {
+          "title": "Docker: Get started",
+          "url": "https://docs.docker.com/get-started/",
+          "type": "docs"
+        },
+        {
+          "title": "Fireship (YouTube)",
+          "url": "https://www.youtube.com/@Fireship",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "ci-cd",
+      "name": "CI/CD (GitHub Actions)",
+      "survey_skill": null,
+      "category": "DevOps",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "git-workflow",
+        "Docker",
+        "testing"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "DevOps/Cloud"
+      ],
+      "hours": 10,
+      "trend": "rising",
+      "why": "Teams automatically test and deploy every change. Knowing how a pipeline works makes you much more useful in a team.",
+      "learn": [
+        "Workflows and jobs",
+        "Running tests on every pull request",
+        "Building Docker images",
+        "Deploying automatically"
+      ],
+      "resources": [
+        {
+          "title": "GitHub Actions docs",
+          "url": "https://docs.github.com/en/actions",
+          "type": "docs"
+        },
+        {
+          "title": "GitHub Skills: Hello GitHub Actions",
+          "url": "https://github.com/skills/hello-github-actions",
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "Cloud basics (AWS)",
+      "survey_skill": "Amazon Web Services (AWS)",
+      "category": "DevOps",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "Docker",
+        "Node.js",
+        "Python",
+        "Java",
+        "linux-cli",
+        "Bash/Shell"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "DevOps/Cloud"
+      ],
+      "hours": 40,
+      "trend": "stable",
+      "why": "The most used cloud platform. Knowing how to deploy and run apps in the cloud is strongly linked with higher pay in the data.",
+      "learn": [
+        "EC2, S3, RDS, Lambda",
+        "IAM (permissions)",
+        "VPC basics",
+        "Deploying a full app"
+      ],
+      "resources": [
+        {
+          "title": "AWS Skill Builder (free courses)",
+          "url": "https://skillbuilder.aws",
+          "type": "course"
+        },
+        {
+          "title": "AWS Cloud Practitioner Essentials",
+          "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "survey_skill": "Kubernetes",
+      "category": "DevOps",
+      "type": "skill",
+      "level": "Senior",
+      "requires_any": [
+        "Docker"
+      ],
+      "roles": [
+        "Back-end",
+        "DevOps/Cloud",
+        "Architect",
+        "Data Engineer",
+        "Full-stack"
+      ],
+      "core_for": [
+        "DevOps/Cloud"
+      ],
+      "hours": 40,
+      "trend": "stable",
+      "why": "Runs many containers reliably across many servers. It is a typical Senior and DevOps skill and is linked to higher market value.",
+      "learn": [
+        "Pods, deployments, services",
+        "kubectl",
+        "ConfigMaps and secrets",
+        "Helm basics"
+      ],
+      "resources": [
+        {
+          "title": "Kubernetes Basics (official tutorial)",
+          "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "terraform",
+      "name": "Infrastructure as Code (Terraform)",
+      "survey_skill": "Terraform",
+      "category": "DevOps",
+      "type": "skill",
+      "level": "Senior",
+      "requires_any": [
+        "aws",
+        "Amazon Web Services (AWS)",
+        "Microsoft Azure",
+        "Google Cloud"
+      ],
+      "roles": [
+        "DevOps/Cloud",
+        "Back-end",
+        "Architect",
+        "Data Engineer"
+      ],
+      "core_for": [
+        "DevOps/Cloud"
+      ],
+      "hours": 25,
+      "trend": "stable",
+      "why": "Creates cloud servers and databases from code, so infrastructure is repeatable and reviewable.",
+      "learn": [
+        "Providers and resources",
+        "State",
+        "Modules",
+        "Plan / apply workflow"
+      ],
+      "resources": [
+        {
+          "title": "HashiCorp Terraform tutorials",
+          "url": "https://developer.hashicorp.com/terraform/tutorials",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "dsa",
+      "name": "Data structures & algorithms",
+      "survey_skill": null,
+      "category": "Engineering",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "C++",
+        "C#",
+        "Go",
+        "C"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [],
+      "hours": 60,
+      "trend": "stable",
+      "why": "Most product-company interviews (especially in India) include DSA rounds. It also helps you write faster code.",
+      "learn": [
+        "Arrays, strings, hash maps",
+        "Stacks, queues, linked lists",
+        "Trees and graphs",
+        "Sorting and searching",
+        "Big-O"
+      ],
+      "resources": [
+        {
+          "title": "NeetCode roadmap",
+          "url": "https://neetcode.io/roadmap",
+          "type": "practice"
+        },
+        {
+          "title": "LeetCode",
+          "url": "https://leetcode.com",
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "id": "system-design",
+      "name": "System design",
+      "survey_skill": null,
+      "category": "Architecture",
+      "type": "trend",
+      "level": "Mid",
+      "requires_any": [
+        "rest-api-design",
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Docker",
+        "Node.js",
+        "Java",
+        "Python",
+        "Go"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "Architect",
+        "Back-end"
+      ],
+      "hours": 50,
+      "trend": "rising",
+      "why": "Moving from Mid to Senior means designing whole systems, not just features. It is asked in almost every Senior interview.",
+      "learn": [
+        "Scaling: vertical vs horizontal",
+        "Load balancers and caching",
+        "SQL vs NoSQL choice",
+        "Queues and async processing",
+        "CAP theorem, replication, sharding"
+      ],
+      "resources": [
+        {
+          "title": "System Design Primer (GitHub)",
+          "url": "https://github.com/donnemartin/system-design-primer",
+          "type": "book"
+        },
+        {
+          "title": "ByteByteGo (YouTube)",
+          "url": "https://www.youtube.com/@ByteByteGo",
+          "type": "video"
+        },
+        {
+          "title": "roadmap.sh: System Design",
+          "url": "https://roadmap.sh/system-design",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "ai-assisted-dev",
+      "name": "AI-assisted development",
+      "survey_skill": null,
+      "category": "AI",
+      "type": "trend",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "*"
+      ],
+      "core_for": [],
+      "hours": 8,
+      "trend": "rising",
+      "why": "Most professional developers now use AI coding tools. Using them well, and checking their output, is now a basic job skill.",
+      "learn": [
+        "Writing clear prompts with context",
+        "Reviewing and testing AI-generated code",
+        "Using AI to explain unfamiliar code",
+        "Knowing when not to trust it"
+      ],
+      "resources": [
+        {
+          "title": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai",
+          "type": "docs"
+        },
+        {
+          "title": "DeepLearning.AI short courses (free)",
+          "url": "https://www.deeplearning.ai/short-courses/",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "llm-apps",
+      "name": "Building AI / LLM features",
+      "survey_skill": null,
+      "category": "AI",
+      "type": "trend",
+      "level": "Mid",
+      "requires_any": [
+        "JavaScript",
+        "Python",
+        "TypeScript",
+        "Node.js"
+      ],
+      "roles": [
+        "*"
+      ],
+      "core_for": [
+        "Data/ML"
+      ],
+      "hours": 30,
+      "trend": "rising",
+      "why": "Companies are adding AI features (chatbots, search, summaries) to their products. Developers who can call LLM APIs, use embeddings and build RAG are in demand.",
+      "learn": [
+        "Calling an LLM API",
+        "Prompt design and structured output",
+        "Embeddings and vector search",
+        "RAG (retrieval-augmented generation)",
+        "Evaluating AI output"
+      ],
+      "resources": [
+        {
+          "title": "Hugging Face LLM Course",
+          "url": "https://huggingface.co/learn/llm-course",
+          "type": "course"
+        },
+        {
+          "title": "Anthropic docs (Claude API)",
+          "url": "https://docs.anthropic.com",
+          "type": "docs"
+        },
+        {
+          "title": "DeepLearning.AI short courses",
+          "url": "https://www.deeplearning.ai/short-courses/",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "survey_skill": "Python",
+      "category": "Languages",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "Data/ML",
+        "Data Engineer",
+        "Back-end",
+        "DevOps/Cloud",
+        "Other",
+        "Full-stack"
+      ],
+      "core_for": [
+        "Data/ML",
+        "Data Engineer"
+      ],
+      "hours": 50,
+      "trend": "rising",
+      "why": "The main language for data and AI, and popular for backends and automation.",
+      "learn": [
+        "Syntax and data types",
+        "Functions and modules",
+        "Virtual environments and pip",
+        "File handling"
+      ],
+      "resources": [
+        {
+          "title": "Official Python tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "type": "docs"
+        },
+        {
+          "title": "CS50's Introduction to Programming with Python (Harvard)",
+          "url": "https://cs50.harvard.edu/python/",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "ml-basics",
+      "name": "Machine learning fundamentals",
+      "survey_skill": "Scikit-learn",
+      "category": "AI",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "Python",
+        "Pandas",
+        "NumPy"
+      ],
+      "roles": [
+        "Data/ML",
+        "Data Engineer",
+        "Back-end",
+        "Other"
+      ],
+      "core_for": [
+        "Data/ML"
+      ],
+      "hours": 60,
+      "trend": "rising",
+      "why": "Understanding how models are trained and evaluated helps you build and judge AI features, and it is the entry to ML roles.",
+      "learn": [
+        "pandas for data cleaning",
+        "Train/test split",
+        "Regression and classification",
+        "Evaluation metrics",
+        "Overfitting"
+      ],
+      "resources": [
+        {
+          "title": "Kaggle Learn (free micro-courses)",
+          "url": "https://www.kaggle.com/learn",
+          "type": "course"
+        },
+        {
+          "title": "Machine Learning Specialization (Andrew Ng)",
+          "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+          "type": "course"
+        },
+        {
+          "title": "scikit-learn: Getting started",
+          "url": "https://scikit-learn.org/stable/getting_started.html",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "name": "Deep learning (PyTorch)",
+      "survey_skill": "PyTorch",
+      "category": "AI",
+      "type": "skill",
+      "level": "Senior",
+      "requires_any": [
+        "ml-basics",
+        "Scikit-learn",
+        "TensorFlow"
+      ],
+      "roles": [
+        "Data/ML"
+      ],
+      "core_for": [
+        "Data/ML"
+      ],
+      "hours": 80,
+      "trend": "rising",
+      "why": "Neural networks power modern AI. PyTorch is the most used deep learning framework in research and industry.",
+      "learn": [
+        "Tensors and autograd",
+        "Training loops",
+        "CNNs and transformers",
+        "Fine-tuning pretrained models"
+      ],
+      "resources": [
+        {
+          "title": "Practical Deep Learning for Coders (fast.ai)",
+          "url": "https://course.fast.ai",
+          "type": "course"
+        },
+        {
+          "title": "PyTorch tutorials",
+          "url": "https://pytorch.org/tutorials/",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "survey_skill": "Java",
+      "category": "Languages",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "Back-end",
+        "Mobile",
+        "Desktop",
+        "Other"
+      ],
+      "core_for": [
+        "Back-end"
+      ],
+      "hours": 60,
+      "trend": "stable",
+      "why": "Widely used in large companies and banks, especially for backend systems.",
+      "learn": [
+        "OOP",
+        "Collections",
+        "Exceptions",
+        "Streams",
+        "Maven/Gradle basics"
+      ],
+      "resources": [
+        {
+          "title": "dev.java: Learn Java (official)",
+          "url": "https://dev.java/learn/",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "spring-boot",
+      "name": "Spring Boot",
+      "survey_skill": "Spring Boot",
+      "category": "Backend",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "Java",
+        "Kotlin"
+      ],
+      "roles": [
+        "Back-end",
+        "Full-stack"
+      ],
+      "core_for": [
+        "Back-end"
+      ],
+      "hours": 40,
+      "trend": "stable",
+      "why": "The standard way to build Java backends in companies.",
+      "learn": [
+        "REST controllers",
+        "Dependency injection",
+        "Spring Data JPA",
+        "Spring Security basics"
+      ],
+      "resources": [
+        {
+          "title": "Spring guides (official)",
+          "url": "https://spring.io/guides",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "android",
+      "name": "Android with Kotlin & Jetpack Compose",
+      "survey_skill": "Kotlin",
+      "category": "Mobile",
+      "type": "skill",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "Mobile",
+        "Other"
+      ],
+      "core_for": [
+        "Mobile"
+      ],
+      "hours": 60,
+      "trend": "stable",
+      "why": "Kotlin is Google's preferred language for Android, and Jetpack Compose is the modern way to build Android UIs.",
+      "learn": [
+        "Kotlin basics",
+        "Composable functions and state",
+        "Navigation",
+        "Calling APIs with Retrofit",
+        "Room database"
+      ],
+      "resources": [
+        {
+          "title": "Android Basics with Compose (official, free)",
+          "url": "https://developer.android.com/courses/android-basics-compose/course",
+          "type": "course"
+        },
+        {
+          "title": "Kotlin docs: Getting started",
+          "url": "https://kotlinlang.org/docs/getting-started.html",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "survey_skill": "Flutter",
+      "category": "Mobile",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "Java",
+        "Kotlin",
+        "JavaScript",
+        "Dart",
+        "C#",
+        "Swift",
+        "android"
+      ],
+      "roles": [
+        "Mobile",
+        "Front-end",
+        "Full-stack"
+      ],
+      "core_for": [
+        "Mobile"
+      ],
+      "hours": 50,
+      "trend": "stable",
+      "why": "One codebase for Android, iOS and web. Very popular with startups and in India.",
+      "learn": [
+        "Dart basics",
+        "Widgets and layout",
+        "State management",
+        "Networking",
+        "Publishing to the stores"
+      ],
+      "resources": [
+        {
+          "title": "Flutter: Get started",
+          "url": "https://docs.flutter.dev/get-started",
+          "type": "docs"
+        },
+        {
+          "title": "Flutter codelabs",
+          "url": "https://docs.flutter.dev/codelabs",
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "id": "swiftui",
+      "name": "iOS with Swift & SwiftUI",
+      "survey_skill": "Swift",
+      "category": "Mobile",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [],
+      "roles": [
+        "Mobile"
+      ],
+      "core_for": [
+        "Mobile"
+      ],
+      "hours": 60,
+      "trend": "stable",
+      "why": "The native way to build iPhone apps. Needed if you target iOS users or Apple-focused companies.",
+      "learn": [
+        "Swift basics",
+        "SwiftUI views and state",
+        "Navigation",
+        "Networking with async/await"
+      ],
+      "resources": [
+        {
+          "title": "Apple: SwiftUI tutorials",
+          "url": "https://developer.apple.com/tutorials/swiftui",
+          "type": "course"
+        },
+        {
+          "title": "Hacking with Swift: 100 Days of SwiftUI",
+          "url": "https://www.hackingwithswift.com/100/swiftui",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "react-native",
+      "name": "React Native",
+      "survey_skill": "React Native",
+      "category": "Mobile",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "React"
+      ],
+      "roles": [
+        "Mobile",
+        "Front-end",
+        "Full-stack"
+      ],
+      "core_for": [
+        "Mobile"
+      ],
+      "hours": 40,
+      "trend": "stable",
+      "why": "Build Android and iOS apps with the React you already know.",
+      "learn": [
+        "Core components",
+        "Navigation",
+        "Native APIs",
+        "Publishing an app"
+      ],
+      "resources": [
+        {
+          "title": "React Native docs",
+          "url": "https://reactnative.dev/docs/getting-started",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "go",
+      "name": "Go",
+      "survey_skill": "Go",
+      "category": "Languages",
+      "type": "skill",
+      "level": "Mid",
+      "requires_any": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "C#",
+        "C++",
+        "PHP"
+      ],
+      "roles": [
+        "Back-end",
+        "DevOps/Cloud",
+        "Architect",
+        "Full-stack"
+      ],
+      "core_for": [],
+      "hours": 40,
+      "trend": "rising",
+      "why": "Simple, fast language used for cloud and backend services (Docker and Kubernetes are written in Go). It is linked with higher salaries in the survey data.",
+      "learn": [
+        "Syntax and types",
+        "Goroutines and channels",
+        "net/http",
+        "Modules"
+      ],
+      "resources": [
+        {
+          "title": "A Tour of Go (official)",
+          "url": "https://go.dev/tour/",
+          "type": "practice"
+        },
+        {
+          "title": "Go by Example",
+          "url": "https://gobyexample.com",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "name": "Writing docs & communicating in a team",
+      "survey_skill": null,
+      "category": "Career",
+      "type": "essential",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "*"
+      ],
+      "core_for": [],
+      "hours": 5,
+      "trend": "stable",
+      "why": "Clear READMEs, pull request descriptions, tickets and stand-up updates make you look senior quickly. This skill is rarely taught.",
+      "learn": [
+        "Writing a good README",
+        "Describing a pull request",
+        "Asking good questions (with what you tried)",
+        "Estimating tasks"
+      ],
+      "resources": [
+        {
+          "title": "Google Technical Writing courses (free)",
+          "url": "https://developers.google.com/tech-writing",
+          "type": "course"
+        },
+        {
+          "title": "Make a README",
+          "url": "https://www.makeareadme.com",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "roadmaps",
+      "name": "Follow a full career roadmap",
+      "survey_skill": null,
+      "category": "Career",
+      "type": "essential",
+      "level": "Junior",
+      "requires_any": [],
+      "roles": [
+        "*"
+      ],
+      "core_for": [],
+      "hours": 2,
+      "trend": "stable",
+      "why": "Community roadmaps show everything a role needs, so you can see what you don't know yet.",
+      "learn": [
+        "Pick the roadmap for your role",
+        "Mark what you know",
+        "Plan the next topics"
+      ],
+      "resources": [
+        {
+          "title": "roadmap.sh (Frontend, Backend, DevOps, AI…)",
+          "url": "https://roadmap.sh",
+          "type": "docs"
+        },
+        {
+          "title": "The Odin Project (free full-stack curriculum)",
+          "url": "https://www.theodinproject.com",
+          "type": "course"
+        },
+        {
+          "title": "CodeWithHarry (YouTube, Hindi)",
+          "url": "https://www.youtube.com/@CodeWithHarry",
+          "type": "video"
+        }
+      ]
+    }
+  ]
+}

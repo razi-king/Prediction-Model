@@ -1,0 +1,11 @@
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+xgboost>=2.1
+joblib>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+pyarrow>=15
+cassandra-driver>=3.29
+pyasyncore>=1.0 ; python_version >= "3.12"   # Cassandra driver needs this on Python 3.12+ (asyncore was removed)
+jupyter
