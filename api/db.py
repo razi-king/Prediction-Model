@@ -6,18 +6,25 @@ models in memory, only the history feature is switched off.
 """
 import json
 import logging
+import time
 import uuid
 from datetime import datetime, timezone
 
 log = logging.getLogger("devascend.db")
+
+# If Cassandra was unreachable (e.g. Astra DB hibernating on the free plan while the API started),
+# try to connect again at most once per minute instead of staying disconnected until the next restart.
+RETRY_SECONDS = 60
 
 
 class PredictionStore:
     def __init__(self):
         self.session = None
         self.cluster = None
+        self._last_attempt = 0.0
 
     def connect(self):
+        self._last_attempt = time.monotonic()
         try:
             # from ml/: the same connection + schema code as the pipeline
             # (local Docker Cassandra, or Astra DB in the cloud when ASTRA_DB_TOKEN is set)
@@ -33,11 +40,25 @@ class PredictionStore:
             )
             log.info("Connected to Cassandra (%s)", "Astra DB cloud" if USING_ASTRA else "local")
         except Exception as exc:
-            self.session = None
-            log.warning("Cassandra unavailable, history disabled: %s", exc)
+            self._disconnect()
+            log.warning("Cassandra unavailable, history disabled (retrying in %ss): %s", RETRY_SECONDS, exc)
+
+    def _disconnect(self):
+        if self.cluster:
+            try:
+                self.cluster.shutdown()
+            except Exception:
+                pass
+        self.session = None
+        self.cluster = None
+
+    def _reconnect_if_due(self):
+        if self.session is None and time.monotonic() - self._last_attempt >= RETRY_SECONDS:
+            self.connect()
 
     @property
     def available(self) -> bool:
+        self._reconnect_if_due()
         return self.session is not None
 
     def save(self, profile: dict, result: dict, growth: dict):
@@ -52,13 +73,19 @@ class PredictionStore:
             ))
         except Exception as exc:
             log.warning("Could not save prediction: %s", exc)
+            self._disconnect()  # the connection may be dead (database hibernated); reconnect later
 
     def latest(self, limit: int = 20) -> list[dict]:
         if not self.available:
             return []
-        rows = self.session.execute(
-            "SELECT created_at, role, country, years_pro, level, score, salary_usd, goal, months_to_goal "
-            "FROM predictions WHERE bucket = 'all' LIMIT %s", (limit,))
+        try:
+            rows = self.session.execute(
+                "SELECT created_at, role, country, years_pro, level, score, salary_usd, goal, months_to_goal "
+                "FROM predictions WHERE bucket = 'all' LIMIT %s", (limit,))
+        except Exception as exc:
+            log.warning("Could not read history: %s", exc)
+            self._disconnect()
+            return []
         return [
             {**row._asdict(), "created_at": row.created_at.isoformat() + "Z"}
             for row in rows

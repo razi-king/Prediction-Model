@@ -144,4 +144,5 @@ Render sets the `PORT` variable itself; the Dockerfile already listens on `$PORT
 | Browser console: "blocked by CORS policy" | `ALLOWED_ORIGINS` on Render must exactly equal the Vercel address (https, no trailing `/`) |
 | Render build fails | open **Logs** and send the last lines; check Runtime is **Docker** and Root Directory is empty |
 | Render log: "Cassandra unavailable" | check the two Astra secrets; the token must start with `AstraCS:`; the database must be *Active* (a long-idle free Astra DB may hibernate: open it in the Astra console to resume) |
+| Website: API dot green, Cassandra dot red (worked before) | The free Astra DB hibernated after days without use. Open astra.datastax.com → your database → **Resume**. The API retries the connection every 60 s (`api/db.py`), so the dot turns green by itself within about a minute after the database is *Active*; no redeploy needed |
 | Vercel build fails | Root Directory must be `web` |
